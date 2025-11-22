@@ -31,7 +31,10 @@
   <label for="endDate">End Date/Time (UTC):</label>
   <input type="datetime-local" id="endDate">
 
-  <p>Total Bleed (respect lost to selected faction): <span id="totalBleed">0</span></p>
+  <p>
+    Total Bleed (respect lost to selected faction): <span id="totalBleed">0</span><br>
+    Total Bleed Attacks: <span id="totalBleedAttacks">0</span>
+  </p>
 
   <!-- Member bleed summaries -->
   <div id="memberBleedSummary"></div>
@@ -61,6 +64,7 @@
     const startDateInput = document.getElementById('startDate');
     const endDateInput = document.getElementById('endDate');
     const totalBleedSpan = document.getElementById('totalBleed');
+    const totalBleedAttacksSpan = document.getElementById('totalBleedAttacks');
     const memberBleedSummary = document.getElementById('memberBleedSummary');
     let allRows = [];
 
@@ -142,7 +146,10 @@
 
     function updateBleed() {
       const selectedFaction = factionFilter.value;
+
       let totalBleed = 0;
+      let totalBleedAttacks = 0;
+
       const perMemberBleed = {};
       members.forEach(m => perMemberBleed[m] = 0);
 
@@ -166,6 +173,7 @@
         if (showRow && isDefenderMember && isAttackerFromSelectedFaction && respectLost > 0) {
           row.classList.add('bleed');
           totalBleed += respectLost;
+          totalBleedAttacks++;
           perMemberBleed[row.dataset.defender] += respectLost;
         } else {
           row.classList.remove('bleed');
@@ -173,6 +181,7 @@
       });
 
       totalBleedSpan.textContent = totalBleed;
+      totalBleedAttacksSpan.textContent = totalBleedAttacks;
 
       memberBleedSummary.innerHTML = '';
       members.forEach(member => {
