@@ -150,8 +150,12 @@
       let totalBleed = 0;
       let totalBleedAttacks = 0;
 
-      const perMemberBleed = {};
-      members.forEach(m => perMemberBleed[m] = 0);
+      const perMemberBleedRespect = {};
+      const perMemberBleedAttacks = {};
+      members.forEach(m => {
+        perMemberBleedRespect[m] = 0;
+        perMemberBleedAttacks[m] = 0;
+      });
 
       const startUnix = utcInputToUnix(startDateInput.value);
       const endUnix = utcInputToUnix(endDateInput.value);
@@ -174,7 +178,8 @@
           row.classList.add('bleed');
           totalBleed += respectLost;
           totalBleedAttacks++;
-          perMemberBleed[row.dataset.defender] += respectLost;
+          perMemberBleedRespect[row.dataset.defender] += respectLost;
+          perMemberBleedAttacks[row.dataset.defender]++;
         } else {
           row.classList.remove('bleed');
         }
@@ -187,7 +192,7 @@
       members.forEach(member => {
         const div = document.createElement('div');
         div.className = 'member-bleed';
-        div.textContent = `${member}: ${perMemberBleed[member]} bleed`;
+        div.textContent = `${member}: ${perMemberBleedRespect[member]} bleed (${perMemberBleedAttacks[member]} attacks)`;
         memberBleedSummary.appendChild(div);
       });
     }
