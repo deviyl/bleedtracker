@@ -40,14 +40,14 @@
     async function loadAttacks() {
       for (const member of members) {
         try {
-          // Use a relative path from the HTML file to the attacks folder
           const response = await fetch(`./attacks/${member}_attacks.json`);
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           const data = await response.json();
 
-          if (!data.attacks) continue;
+          // Since your JSON is a top-level array, loop directly
+          if (!Array.isArray(data)) continue;
 
-          for (const attack of data.attacks) {
+          for (const attack of data) {
             const row = document.createElement('tr');
             row.innerHTML = `
               <td>${attack.attacker.name}</td>
