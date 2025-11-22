@@ -1,0 +1,3757 @@
+[
+  {
+    "id": 427270037,
+    "code": "a53fdcabea3ba9c92a5c5768b5beba3c",
+    "started": 1763232710,
+    "ended": 1763232713,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.13,
+    "respect_loss": 0.28,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 425220161,
+    "code": "558de488fb5f0c89cd46472d61f091a2",
+    "started": 1762469624,
+    "ended": 1762469643,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 425169972,
+    "code": "933923aa36c307919c6f49806c204949",
+    "started": 1762455008,
+    "ended": 1762455029,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 423505846,
+    "code": "2da324d9b08011b4862a1adb43a08960",
+    "started": 1761990706,
+    "ended": 1761990709,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.26,
+    "respect_loss": 0.31,
+    "chain": 230,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.34,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 423384473,
+    "code": "d8469afbe21b5b90810d3d316347eaa7",
+    "started": 1761987039,
+    "ended": 1761987041,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.11,
+    "respect_loss": 0.53,
+    "chain": 49186,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.92,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 423150788,
+    "code": "f8f8b3119d700e3c62e958fe35eed1bf",
+    "started": 1761979407,
+    "ended": 1761979410,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.05,
+    "respect_loss": 0.26,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.27,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422716913,
+    "code": "b0374a994fd3fa010d8adb64b8dfb878",
+    "started": 1761963636,
+    "ended": 1761963639,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.05,
+    "respect_loss": 0.26,
+    "chain": 13,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.23,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.03,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422598041,
+    "code": "47e7f3c3e6fd85289efba22214dba417",
+    "started": 1761959780,
+    "ended": 1761959782,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.11,
+    "respect_loss": 0.53,
+    "chain": 46650,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.92,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422578426,
+    "code": "efb73b1c73b5253b3fdb7b8b3ca31127",
+    "started": 1761959214,
+    "ended": 1761959220,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3391599,
+      "name": "-El_Pato-",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.25,
+    "respect_loss": 0.56,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422577256,
+    "code": "1b06c13d19312b414742ba3038ba3268",
+    "started": 1761959183,
+    "ended": 1761959187,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 914192,
+      "name": "01joe10",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422479894,
+    "code": "5dd653eedae796d2f615b86207df3053",
+    "started": 1761956585,
+    "ended": 1761956588,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 20,
+    "respect_loss": 5,
+    "chain": 25,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.23,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 20,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422399419,
+    "code": "66df695f44bd8b345b28748b171f364b",
+    "started": 1761954381,
+    "ended": 1761954386,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2185268,
+      "name": "-Horrific-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422312377,
+    "code": "fe9a36be1936a8e5a437ea4ddcd21786",
+    "started": 1761951159,
+    "ended": 1761951161,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.94,
+    "respect_loss": 0.23,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422283966,
+    "code": "933e7efa705f876825076202df8333cb",
+    "started": 1761950130,
+    "ended": 1761950134,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3693852,
+      "name": "3hunna152",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.9,
+    "respect_loss": 0.47,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422283374,
+    "code": "a0dda8ad9f50d5b68e8f4797d62232fc",
+    "started": 1761950110,
+    "ended": 1761950113,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 1353561,
+      "name": "-alter-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.46,
+    "respect_loss": 0.62,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.32,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422282883,
+    "code": "24a884dc0e65e619eb4e4d42f412152a",
+    "started": 1761950094,
+    "ended": 1761950098,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 914192,
+      "name": "01joe10",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422281710,
+    "code": "fbd71ae603708184c916c3499c74b1b2",
+    "started": 1761950056,
+    "ended": 1761950076,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3475719,
+      "name": "0Ascendant0",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422281043,
+    "code": "41ef3cfaad5cccdeb5d3348a25883035",
+    "started": 1761950034,
+    "ended": 1761950039,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3494065,
+      "name": "-nymeria-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422280551,
+    "code": "10f372f03e3e71920a41f017908ed93f",
+    "started": 1761950019,
+    "ended": 1761950023,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2185268,
+      "name": "-Horrific-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 422206847,
+    "code": "965d3b7f874f0cf8576bb33d42b22626",
+    "started": 1761947522,
+    "ended": 1761947528,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.05,
+    "respect_loss": 0.26,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.27,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 421924918,
+    "code": "719ee10ac63cf62c7eeceacf095d1259",
+    "started": 1761937922,
+    "ended": 1761937926,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.58,
+    "respect_loss": 0.4,
+    "chain": 44366,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.91,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 421483568,
+    "code": "92cf3af2e346273e5859def0dc910e10",
+    "started": 1761922952,
+    "ended": 1761922954,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.21,
+    "respect_loss": 0.3,
+    "chain": 20,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.36,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.08,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 421380171,
+    "code": "accc004e2bd051b9b85850c9a8ed34e2",
+    "started": 1761919647,
+    "ended": 1761919651,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.4,
+    "respect_loss": 0.35,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.27,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 421264260,
+    "code": "c33d248a560085a7aa9df48c0f77dc50",
+    "started": 1761916102,
+    "ended": 1761916109,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.74,
+    "respect_loss": 0.44,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.11,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420740080,
+    "code": "35d91a4fb1490eaa90561b1860b39160",
+    "started": 1761896334,
+    "ended": 1761896336,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.09,
+    "respect_loss": 0.52,
+    "chain": 40768,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.9,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420548256,
+    "code": "499eee3ad62d2bd1f145e7af855607de",
+    "started": 1761887774,
+    "ended": 1761887777,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.58,
+    "respect_loss": 0.4,
+    "chain": 22020,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.84,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420398014,
+    "code": "f0a78f52fa56ea45f086ebba07995223",
+    "started": 1761881378,
+    "ended": 1761881380,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 436333,
+      "name": "-Blanked-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420397396,
+    "code": "5849731a71ef011acaafa259f8458b42",
+    "started": 1761881352,
+    "ended": 1761881354,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3285147,
+      "name": "---BandiT---",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420252691,
+    "code": "4f76029f648ba998bc1d9a77ebaa7916",
+    "started": 1761875792,
+    "ended": 1761875796,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 1680510,
+      "name": "parlayyar4",
+      "level": 5,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.99,
+    "respect_loss": 0.5,
+    "chain": 34,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.13,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420243371,
+    "code": "8dc181eb30072c783f180b16ce1f9a84",
+    "started": 1761875475,
+    "ended": 1761875478,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 559297,
+      "name": "-baby-bell-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.5,
+    "respect_loss": 0.88,
+    "chain": 24,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420241861,
+    "code": "07cc14fa72bbd19f558461165a2683f3",
+    "started": 1761875421,
+    "ended": 1761875434,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 1891613,
+      "name": "Espiritus",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.4,
+    "respect_loss": 0.85,
+    "chain": 21,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.08,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420240445,
+    "code": "c8288767d02d5a10c9773d227f0c92b0",
+    "started": 1761875369,
+    "ended": 1761875374,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3766647,
+      "name": "BEACON_27",
+      "level": 7,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.73,
+    "respect_loss": 0.68,
+    "chain": 20,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.08,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420239629,
+    "code": "4dc7686bddd674eb79d5799eeb412d90",
+    "started": 1761875338,
+    "ended": 1761875346,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3494065,
+      "name": "-nymeria-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.59,
+    "respect_loss": 0.65,
+    "chain": 19,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.07,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420238962,
+    "code": "29a68ac78af6f73cbb38576b7b864a18",
+    "started": 1761875314,
+    "ended": 1761875318,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3752248,
+      "name": "Mrasser",
+      "level": 8,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.91,
+    "respect_loss": 0.48,
+    "chain": 18,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.06,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420237548,
+    "code": "6048283783c0bdc53d06cdbce84da34d",
+    "started": 1761875265,
+    "ended": 1761875270,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3693852,
+      "name": "3hunna152",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.02,
+    "respect_loss": 0.5,
+    "chain": 17,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.06,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420236079,
+    "code": "99050e9778ba2f3399f3fcfd742b5e8d",
+    "started": 1761875214,
+    "ended": 1761875223,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 914192,
+      "name": "01joe10",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.2,
+    "respect_loss": 0.55,
+    "chain": 16,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.05,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420235483,
+    "code": "3d824e2bd4c9117577fab254e4067455",
+    "started": 1761875194,
+    "ended": 1761875197,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 436333,
+      "name": "-Blanked-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.18,
+    "respect_loss": 0.55,
+    "chain": 15,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420233852,
+    "code": "f5739addf217314b93af807e3075b284",
+    "started": 1761875140,
+    "ended": 1761875182,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3475719,
+      "name": "0Ascendant0",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.34,
+    "respect_loss": 0.83,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420231402,
+    "code": "a307d881d86fb6b4d0cac6fb17553579",
+    "started": 1761875060,
+    "ended": 1761875091,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3391599,
+      "name": "-El_Pato-",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.25,
+    "respect_loss": 0.56,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 420049250,
+    "code": "a78d01fc3414bea2214473502f755262",
+    "started": 1761869581,
+    "ended": 1761869583,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.91,
+    "respect_loss": 0.48,
+    "chain": 9102,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.74,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419836066,
+    "code": "44f316839908561f392176eacd9de94c",
+    "started": 1761862293,
+    "ended": 1761862296,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.09,
+    "respect_loss": 0.52,
+    "chain": 38562,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.9,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419770973,
+    "code": "556bce5761f04a0bd825f59718e1ecb8",
+    "started": 1761860082,
+    "ended": 1761860084,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3766647,
+      "name": "BEACON_27",
+      "level": 7,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.52,
+    "respect_loss": 0.63,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419770208,
+    "code": "7a26c6dc1ab3c18032966a2599e0374d",
+    "started": 1761860057,
+    "ended": 1761860059,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3752248,
+      "name": "Mrasser",
+      "level": 8,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.8,
+    "respect_loss": 0.45,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419769630,
+    "code": "796ecd2cb5dfcd20aaffd7c680926ddb",
+    "started": 1761860038,
+    "ended": 1761860040,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 914192,
+      "name": "01joe10",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419767886,
+    "code": "aad3be35142702f920b274146dd8ee4d",
+    "started": 1761859980,
+    "ended": 1761859991,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 559297,
+      "name": "-baby-bell-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419766503,
+    "code": "96e33e79bad75d193815ace066bb64a4",
+    "started": 1761859934,
+    "ended": 1761859940,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3391599,
+      "name": "-El_Pato-",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.25,
+    "respect_loss": 0.56,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419766017,
+    "code": "f83e933acb233e180115dd7b6237a8a0",
+    "started": 1761859917,
+    "ended": 1761859920,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 436333,
+      "name": "-Blanked-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419746991,
+    "code": "eec46cbed27dc56d0410499256f1ec66",
+    "started": 1761859240,
+    "ended": 1761859243,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.17,
+    "respect_loss": 0.54,
+    "chain": 74476,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.97,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419731369,
+    "code": "f1a600a847d87b58ec8f78295c65b377",
+    "started": 1761858688,
+    "ended": 1761858691,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3261785,
+      "name": "-Warren",
+      "level": 3,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.34,
+    "respect_loss": 0.34,
+    "chain": 15,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419730889,
+    "code": "c18c805d0e13b910ba84abd7fd1175f7",
+    "started": 1761858672,
+    "ended": 1761858676,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3659516,
+      "name": "Pergie",
+      "level": 6,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.82,
+    "respect_loss": 0.46,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.7,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419730255,
+    "code": "c74a50135ede97648d736ba741f70b54",
+    "started": 1761858650,
+    "ended": 1761858654,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2217690,
+      "name": "-WackyCat-",
+      "level": 6,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.07,
+    "respect_loss": 0.52,
+    "chain": 13,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.95,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.03,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419728820,
+    "code": "138221f18591867d0762a9a11c50d641",
+    "started": 1761858601,
+    "ended": 1761858607,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 1891613,
+      "name": "Espiritus",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 12,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.02,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419726817,
+    "code": "5cf27be1fb9e1a4db718cdb76f807327",
+    "started": 1761858530,
+    "ended": 1761858547,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 1891613,
+      "name": "Espiritus",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419724714,
+    "code": "0ff4698b82bb7ce5a97c9bf33c1075b2",
+    "started": 1761858455,
+    "ended": 1761858458,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 1680510,
+      "name": "parlayyar4",
+      "level": 5,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.78,
+    "respect_loss": 0.44,
+    "chain": 11,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.01,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419724212,
+    "code": "3ab4bef535e04e4df4d1226e8d64855a",
+    "started": 1761858437,
+    "ended": 1761858439,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3766647,
+      "name": "BEACON_27",
+      "level": 7,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 10,
+    "respect_loss": 2.5,
+    "chain": 10,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 10,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419723586,
+    "code": "18514a43b32defe396b362364fd21e02",
+    "started": 1761858415,
+    "ended": 1761858420,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3693852,
+      "name": "3hunna152",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.9,
+    "respect_loss": 0.47,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419722954,
+    "code": "a393de53cc89bdae886d9c7076c9318e",
+    "started": 1761858394,
+    "ended": 1761858399,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3752821,
+      "name": "brooklynnBronx",
+      "level": 6,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.55,
+    "respect_loss": 0.39,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.5,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419722057,
+    "code": "daa42ffe74c74d90d6adf6e8238fef6e",
+    "started": 1761858362,
+    "ended": 1761858375,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2607738,
+      "name": "-Ro-",
+      "level": 14,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419720176,
+    "code": "32ece26a6d55e8ab90ef5a485fabc9e6",
+    "started": 1761858295,
+    "ended": 1761858300,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2185268,
+      "name": "-Horrific-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419719622,
+    "code": "00eb2a156b5138a58a7f6629ccecfd04",
+    "started": 1761858276,
+    "ended": 1761858281,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3391599,
+      "name": "-El_Pato-",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.25,
+    "respect_loss": 0.56,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419719029,
+    "code": "69b6b8f8b7ef76f033828c30c1ffdac7",
+    "started": 1761858255,
+    "ended": 1761858260,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3752248,
+      "name": "Mrasser",
+      "level": 8,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.8,
+    "respect_loss": 0.45,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419718398,
+    "code": "9f2539b0d72ed2f8f855adacee34d2ee",
+    "started": 1761858234,
+    "ended": 1761858240,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 914192,
+      "name": "01joe10",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419717581,
+    "code": "97a5bea5b02887ff46c331d9e2bf9216",
+    "started": 1761858207,
+    "ended": 1761858215,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 695257,
+      "name": "-Claire-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419716987,
+    "code": "d79dbfccff7ce226e99f9194a5565e3e",
+    "started": 1761858188,
+    "ended": 1761858193,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 436333,
+      "name": "-Blanked-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 419288440,
+    "code": "8ebf90df7f0f514d92c1514516cc41e9",
+    "started": 1761843399,
+    "ended": 1761843404,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.32,
+    "respect_loss": 0.33,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.6,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418988982,
+    "code": "aab15c576d6a5b102c7d8c034d3a9c87",
+    "started": 1761833063,
+    "ended": 1761833067,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.92,
+    "respect_loss": 0.23,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.12,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418816795,
+    "code": "1d88c1eaf5e8f6872cfedce78b64cfe7",
+    "started": 1761827448,
+    "ended": 1761827450,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.56,
+    "respect_loss": 0.39,
+    "chain": 19214,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.82,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418746284,
+    "code": "b7ca656fd0e18c30c88d6b38baf84ddb",
+    "started": 1761825085,
+    "ended": 1761825107,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2607738,
+      "name": "-Ro-",
+      "level": 14,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418745714,
+    "code": "7ca13e5e19d4d6025116b956984d0c7e",
+    "started": 1761825065,
+    "ended": 1761825069,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 436333,
+      "name": "-Blanked-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418745222,
+    "code": "1a1b8d7b0a0f0eb3ab4c8458a207f161",
+    "started": 1761825047,
+    "ended": 1761825050,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 914192,
+      "name": "01joe10",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418657683,
+    "code": "5bdd61d2d279ca7e1e68f1bc6c38c94f",
+    "started": 1761821861,
+    "ended": 1761821866,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.05,
+    "respect_loss": 0.26,
+    "chain": 35,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.12,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.14,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418463397,
+    "code": "5fe581c4f0490e747accad6428876a0e",
+    "started": 1761814187,
+    "ended": 1761814190,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.96,
+    "respect_loss": 0.24,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.16,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418457074,
+    "code": "0ea7262a168287faebbb856b827b411f",
+    "started": 1761813926,
+    "ended": 1761813938,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2607738,
+      "name": "-Ro-",
+      "level": 14,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418455101,
+    "code": "a62af438ecc716d61a28feb3a22fbe00",
+    "started": 1761813851,
+    "ended": 1761813856,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3494065,
+      "name": "-nymeria-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418454067,
+    "code": "dd282ba97932e39b80241191440074f8",
+    "started": 1761813809,
+    "ended": 1761813815,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2185268,
+      "name": "-Horrific-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418452935,
+    "code": "8397985e67fb7698796826bfde4c0ecc",
+    "started": 1761813767,
+    "ended": 1761813773,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3391599,
+      "name": "-El_Pato-",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.25,
+    "respect_loss": 0.56,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418452497,
+    "code": "9f0634d9c7e4d274f42edb6e2fa61138",
+    "started": 1761813752,
+    "ended": 1761813755,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 695257,
+      "name": "-Claire-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418450028,
+    "code": "02bcc51623980858afe0d401b22453de",
+    "started": 1761813659,
+    "ended": 1761813663,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 436333,
+      "name": "-Blanked-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418338037,
+    "code": "8b0da87c2966482f663092ddb526d43a",
+    "started": 1761809469,
+    "ended": 1761809473,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.94,
+    "respect_loss": 0.23,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 418328197,
+    "code": "2fd92be31dcb651c5781d30023b2923e",
+    "started": 1761809114,
+    "ended": 1761809126,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3530453,
+      "name": "Teaachesea",
+      "level": 12,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.65,
+    "respect_loss": 0.66,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.5,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 417216371,
+    "code": "9717c2590468393b84a44ac44cc7c3c8",
+    "started": 1761767019,
+    "ended": 1761767024,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3293942,
+      "name": "-Yursia-",
+      "level": 14,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 417214177,
+    "code": "3aee9dbda1111197f408a14b1c57aca3",
+    "started": 1761766942,
+    "ended": 1761766946,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2750388,
+      "name": "-Urahara",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.03,
+    "respect_loss": 0.51,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.9,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 417212994,
+    "code": "d7982d5b615b1b24264d7ec86481a851",
+    "started": 1761766902,
+    "ended": 1761766907,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3737032,
+      "name": "-Subaru-",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 417211172,
+    "code": "9636e02d515402e7e7567cc393de76e4",
+    "started": 1761766837,
+    "ended": 1761766852,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2607738,
+      "name": "-Ro-",
+      "level": 14,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 417209615,
+    "code": "4731ea817abeeb53c05ea4e69dc92af6",
+    "started": 1761766782,
+    "ended": 1761766784,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2185268,
+      "name": "-Horrific-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 417208085,
+    "code": "b2d5020773aa93a05d7bd8c6d7f78d48",
+    "started": 1761766725,
+    "ended": 1761766732,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3285147,
+      "name": "---BandiT---",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416623666,
+    "code": "60352744be82d81907020fbaba62051f",
+    "started": 1761745990,
+    "ended": 1761745994,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.01,
+    "respect_loss": 0.25,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.22,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416618552,
+    "code": "221d59d08b3c0dde43f2be8d0808cbcb",
+    "started": 1761745827,
+    "ended": 1761745830,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3693852,
+      "name": "3hunna152",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.98,
+    "respect_loss": 0.5,
+    "chain": 15,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416617954,
+    "code": "e67bd25617a4981dbcbc722a5a2de2ef",
+    "started": 1761745806,
+    "ended": 1761745811,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 914192,
+      "name": "01joe10",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.18,
+    "respect_loss": 0.55,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416617378,
+    "code": "93d436c652058e91b285a5ae051d337a",
+    "started": 1761745786,
+    "ended": 1761745792,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 559297,
+      "name": "-baby-bell-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.28,
+    "respect_loss": 0.82,
+    "chain": 13,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.03,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416391119,
+    "code": "d99136a9d2bfc7ff5efebf4d70b59460",
+    "started": 1761737933,
+    "ended": 1761737942,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 1891613,
+      "name": "Espiritus",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.15,
+    "respect_loss": 0.79,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416388359,
+    "code": "41dbc54c2926e0fc561472c7adfc5532",
+    "started": 1761737827,
+    "ended": 1761737843,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 2707381,
+      "name": "luiselyon",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Special",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416387392,
+    "code": "5a35124d0cc4b2931979774441eab997",
+    "started": 1761737792,
+    "ended": 1761737794,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 914192,
+      "name": "01joe10",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416386766,
+    "code": "de3ba426e56addd3d3978c3be289b26e",
+    "started": 1761737771,
+    "ended": 1761737774,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3494065,
+      "name": "-nymeria-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416386230,
+    "code": "c4f67d4dc1000268c7eb1b6b445f5786",
+    "started": 1761737751,
+    "ended": 1761737755,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 436333,
+      "name": "-Blanked-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 416128765,
+    "code": "778ae94e6d62f8e1514441e0aa9b4b65",
+    "started": 1761727615,
+    "ended": 1761727619,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 10,
+    "respect_loss": 2.5,
+    "chain": 10,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.01,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 10,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 415951487,
+    "code": "c6c861b7d3b798f87cffbdf63083538a",
+    "started": 1761720876,
+    "ended": 1761720883,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.95,
+    "respect_loss": 0.49,
+    "chain": 29,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.11,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.12,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 415840128,
+    "code": "0a7234265f7b466e6c91a362ff47f351",
+    "started": 1761716662,
+    "ended": 1761716665,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 3693852,
+      "name": "3hunna152",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.9,
+    "respect_loss": 0.47,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 415839097,
+    "code": "eddeca47c992d7d1d09758ca3947fa7d",
+    "started": 1761716625,
+    "ended": 1761716643,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 695257,
+      "name": "-Claire-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 415807296,
+    "code": "ac3e2bf133e50d43c676cb0ee26266d8",
+    "started": 1761715450,
+    "ended": 1761715476,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 49377,
+        "name": "Selling/proxy"
+      }
+    },
+    "defender": {
+      "id": 695257,
+      "name": "-Claire-",
+      "level": 13,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  }
+]

@@ -1,0 +1,4515 @@
+[
+  {
+    "id": 428237289,
+    "code": "73c52923d5b090d60ba6b99fb39ac251",
+    "started": 1763673488,
+    "ended": 1763673491,
+    "attacker": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428236906,
+    "code": "cc8eca9ab3c995e5ae096ef06e12d0a5",
+    "started": 1763673373,
+    "ended": 1763673377,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2756023,
+      "name": "-Final-Trial-",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 1.02,
+    "respect_loss": 0.25,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.29,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428232647,
+    "code": "99eedd7256981c68c415c6328d1bbbd7",
+    "started": 1763672321,
+    "ended": 1763672328,
+    "attacker": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428169535,
+    "code": "53405f58148bf75def94b85803691738",
+    "started": 1763655926,
+    "ended": 1763655928,
+    "attacker": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428089786,
+    "code": "e908b96fdc01d8b32cccad34c30ba94a",
+    "started": 1763607650,
+    "ended": 1763607655,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2892011,
+      "name": "issuez",
+      "level": 15,
+      "faction": {
+        "id": 50540,
+        "name": "Only the family 300"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.91,
+    "respect_loss": 0.73,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.72,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428089752,
+    "code": "85b00120f8bca66aec41cd46f934eea2",
+    "started": 1763607628,
+    "ended": 1763607643,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3761623,
+      "name": "HopZy",
+      "level": 22,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3,
+    "respect_loss": 0.75,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.7,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428089664,
+    "code": "f9f07dd73d8d27a5fdc3a30194a2a00b",
+    "started": 1763607572,
+    "ended": 1763607587,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3263157,
+      "name": "derpsthemighty",
+      "level": 26,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.05,
+    "respect_loss": 0.76,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.7,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 427935902,
+    "code": "50fab7e8224ffd16d384632330538824",
+    "started": 1763506366,
+    "ended": 1763506368,
+    "attacker": {
+      "id": 3184022,
+      "name": "evilsoft",
+      "level": 40,
+      "faction": {
+        "id": 8795,
+        "name": "The Brotherhood of Battle"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.34,
+    "respect_loss": 0.34,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.2,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 427929935,
+    "code": "cfc14ceea1850b722b644492d2fc80ec",
+    "started": 1763502490,
+    "ended": 1763502498,
+    "attacker": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 427910439,
+    "code": "ef0199a34476a5e94610756c1b0745d0",
+    "started": 1763489891,
+    "ended": 1763489894,
+    "attacker": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 427563894,
+    "code": "9409b9bf31078bb534941d98df58b546",
+    "started": 1763311373,
+    "ended": 1763311378,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 427462929,
+    "code": "c77e195ed7d0ee183ce4a09d80ffd81f",
+    "started": 1763274302,
+    "ended": 1763274305,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.15,
+    "respect_loss": 2.04,
+    "chain": 975,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427462739,
+    "code": "32813773bf6c002fd8d34bd8072041ab",
+    "started": 1763274232,
+    "ended": 1763274235,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.19,
+    "respect_loss": 1.8,
+    "chain": 971,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427462603,
+    "code": "9699b1994af2c563f96e3322965d14d6",
+    "started": 1763274179,
+    "ended": 1763274182,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.98,
+    "respect_loss": 1.75,
+    "chain": 969,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427462234,
+    "code": "8172af0fd82694a21c720e329325b666",
+    "started": 1763274065,
+    "ended": 1763274069,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2664257,
+      "name": "AlphaWolfXFrost",
+      "level": 10,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.36,
+    "respect_loss": 0.59,
+    "chain": 966,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427462178,
+    "code": "885b63efe594cc682de3daf7a13802e9",
+    "started": 1763274050,
+    "ended": 1763274053,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2841934,
+      "name": "ALPHA-A",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.02,
+    "respect_loss": 0.75,
+    "chain": 963,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.64,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427462142,
+    "code": "e858975afef4c95804974b388910e2bb",
+    "started": 1763274038,
+    "ended": 1763274041,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2717489,
+      "name": "AlokOne",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.26,
+    "respect_loss": 0.56,
+    "chain": 962,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.24,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427462018,
+    "code": "d54fcbcf1d2bb86352be000f120c0a3e",
+    "started": 1763274002,
+    "ended": 1763274007,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2569703,
+      "name": "Aldoron",
+      "level": 12,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.51,
+    "respect_loss": 0.63,
+    "chain": 961,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.35,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461984,
+    "code": "e241710853007e9eb2d9603381aa5cb5",
+    "started": 1763273991,
+    "ended": 1763273994,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2602945,
+      "name": "AlderHanson",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.24,
+    "respect_loss": 0.56,
+    "chain": 960,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.23,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461958,
+    "code": "8f42a266880026a73a7e2e34527e1da1",
+    "started": 1763273980,
+    "ended": 1763273983,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2799739,
+      "name": "Alchemist22",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.17,
+    "respect_loss": 0.54,
+    "chain": 959,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.19,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461917,
+    "code": "223f2a62e3772b7b02c580cf52fe792b",
+    "started": 1763273969,
+    "ended": 1763273973,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2761596,
+      "name": "Albinoleffino",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.28,
+    "respect_loss": 0.57,
+    "chain": 958,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.25,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461880,
+    "code": "34820e661db5c262514d13d139550f14",
+    "started": 1763273959,
+    "ended": 1763273961,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2735399,
+      "name": "Albanian_Greeks",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.34,
+    "respect_loss": 0.58,
+    "chain": 957,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.27,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461735,
+    "code": "7b3619fd01c22f3d409425246689f989",
+    "started": 1763273914,
+    "ended": 1763273916,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.52,
+    "respect_loss": 2.13,
+    "chain": 954,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461668,
+    "code": "c480cf3c8a0e234102a95e2690ab927e",
+    "started": 1763273890,
+    "ended": 1763273894,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2833390,
+      "name": "Ace12312",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.97,
+    "respect_loss": 0.74,
+    "chain": 953,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.64,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461646,
+    "code": "666f049f8b02bf84786f26a71fad147c",
+    "started": 1763273880,
+    "ended": 1763273883,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2653191,
+      "name": "AceBear",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.19,
+    "respect_loss": 0.55,
+    "chain": 952,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.21,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461608,
+    "code": "7fcaaa8a883788dd9c60962993ad17b0",
+    "started": 1763273866,
+    "ended": 1763273870,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2815575,
+      "name": "AcenPrime",
+      "level": 10,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.53,
+    "respect_loss": 0.63,
+    "chain": 950,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.38,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461575,
+    "code": "4727bc94b395e6c0c80f8727d7937781",
+    "started": 1763273856,
+    "ended": 1763273858,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2838736,
+      "name": "aceloki",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.56,
+    "respect_loss": 0.64,
+    "chain": 949,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.41,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461536,
+    "code": "ddde2e1ed857d004dc8b870d7f034d5f",
+    "started": 1763273844,
+    "ended": 1763273846,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2652634,
+      "name": "Abroxous",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.63,
+    "respect_loss": 0.66,
+    "chain": 948,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461382,
+    "code": "fd74aee42fe81dd09f6524d4e1dad83d",
+    "started": 1763273784,
+    "ended": 1763273788,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2748301,
+      "name": "akada",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.21,
+    "respect_loss": 0.55,
+    "chain": 945,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.22,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461348,
+    "code": "bfff43f10f32f44722eab04d4b65be30",
+    "started": 1763273772,
+    "ended": 1763273775,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2611334,
+      "name": "Ajaxthemighty",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.65,
+    "respect_loss": 0.66,
+    "chain": 944,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461317,
+    "code": "e8d6ad598eb5a59f3b07fc1d6c6c17d1",
+    "started": 1763273759,
+    "ended": 1763273764,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2653197,
+      "name": "Airone",
+      "level": 12,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.53,
+    "respect_loss": 0.63,
+    "chain": 943,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.37,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461290,
+    "code": "c1caa55c96b36fe64e5d058b51d7c5ef",
+    "started": 1763273750,
+    "ended": 1763273752,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2594378,
+      "name": "Airlah",
+      "level": 11,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.75,
+    "respect_loss": 0.69,
+    "chain": 941,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.5,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461248,
+    "code": "b637b9dacc5ebb7ac0cce4fd571113cf",
+    "started": 1763273736,
+    "ended": 1763273741,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2756216,
+      "name": "Airinghost",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 940,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.16,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461215,
+    "code": "7a6199313d41451265a0b06d615a145e",
+    "started": 1763273726,
+    "ended": 1763273728,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2844209,
+      "name": "Airedine",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.25,
+    "respect_loss": 0.56,
+    "chain": 939,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.24,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461111,
+    "code": "9b8a4154bef9b0aa051ca6a539541ddf",
+    "started": 1763273690,
+    "ended": 1763273693,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2799048,
+      "name": "Airbender92",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.14,
+    "respect_loss": 0.79,
+    "chain": 937,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461076,
+    "code": "0f90b99692c40e76526f5895530a697d",
+    "started": 1763273676,
+    "ended": 1763273679,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2644268,
+      "name": "Airah",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 1.92,
+    "respect_loss": 0.48,
+    "chain": 935,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.41,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427461044,
+    "code": "ca3f35407914828668fd023bf6335570",
+    "started": 1763273666,
+    "ended": 1763273668,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2881065,
+      "name": "Ainz-sama",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.47,
+    "respect_loss": 0.62,
+    "chain": 934,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.36,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427460969,
+    "code": "c7952a5f94e271ceb4c11aa01cb5c4a2",
+    "started": 1763273633,
+    "ended": 1763273637,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2640941,
+      "name": "Aidenmage",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.25,
+    "respect_loss": 0.56,
+    "chain": 932,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.24,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427460757,
+    "code": "fd9f342940a2a41eef672c7d901f6237",
+    "started": 1763273549,
+    "ended": 1763273554,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2710093,
+      "name": "Afhowell",
+      "level": 10,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.32,
+    "respect_loss": 0.58,
+    "chain": 929,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.27,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427460714,
+    "code": "248a237d8a8461024f2a14ae9ce0e9ab",
+    "started": 1763273533,
+    "ended": 1763273537,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2749636,
+      "name": "AFabTx",
+      "level": 12,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.75,
+    "respect_loss": 0.69,
+    "chain": 928,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.49,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427460666,
+    "code": "071077dc3e11850676bce02a6aa28f53",
+    "started": 1763273519,
+    "ended": 1763273521,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2851430,
+      "name": "aesupreme",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.63,
+    "respect_loss": 0.66,
+    "chain": 926,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427460638,
+    "code": "f414f0bb3128abc500df54cadf085841",
+    "started": 1763273508,
+    "ended": 1763273511,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2629944,
+      "name": "Aerwyna",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.45,
+    "respect_loss": 0.61,
+    "chain": 925,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.35,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427459036,
+    "code": "a62d45a19f27eca11a67e7d5cc324ecd",
+    "started": 1763272975,
+    "ended": 1763272977,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.93,
+    "respect_loss": 1.73,
+    "chain": 913,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427458865,
+    "code": "9f0d091f9d505ed32a12f8fd8ee5d858",
+    "started": 1763272918,
+    "ended": 1763272921,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.1,
+    "respect_loss": 2.03,
+    "chain": 912,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427458333,
+    "code": "36836ff4140286ae5fed7ccbe1dd7843",
+    "started": 1763272730,
+    "ended": 1763272732,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.14,
+    "respect_loss": 1.78,
+    "chain": 908,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427457015,
+    "code": "1f607e8f0ed25ca51dc0ae92c2c72985",
+    "started": 1763272348,
+    "ended": 1763272351,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.82,
+    "respect_loss": 1.71,
+    "chain": 892,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427453807,
+    "code": "4cb5f1e8e9f94b2bd33a76d182c20552",
+    "started": 1763271263,
+    "ended": 1763271267,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.77,
+    "respect_loss": 1.69,
+    "chain": 867,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427453555,
+    "code": "79340e4c891b6f06268b4a7ab1d0e29b",
+    "started": 1763271172,
+    "ended": 1763271174,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.88,
+    "respect_loss": 1.72,
+    "chain": 864,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427453542,
+    "code": "c870263103b23df3213f3eb95ecafbaf",
+    "started": 1763271167,
+    "ended": 1763271169,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.1,
+    "respect_loss": 1.77,
+    "chain": 863,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427450976,
+    "code": "785bfb2b604a10f68b5316123fa8516f",
+    "started": 1763270284,
+    "ended": 1763270288,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.04,
+    "respect_loss": 2.01,
+    "chain": 844,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427449459,
+    "code": "449bf125e932a1e7f2f81ec831282889",
+    "started": 1763269772,
+    "ended": 1763269774,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.77,
+    "respect_loss": 1.69,
+    "chain": 837,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427448786,
+    "code": "ccd9486b2dc3d61589cafc0173c75abf",
+    "started": 1763269539,
+    "ended": 1763269546,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.1,
+    "respect_loss": 1.77,
+    "chain": 834,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427443996,
+    "code": "e8894a0b505399a005b0c6c8ef0c25d1",
+    "started": 1763267900,
+    "ended": 1763267903,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.04,
+    "respect_loss": 2.01,
+    "chain": 795,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427442563,
+    "code": "94e5f093268bf8fe93df6ee90e45cad4",
+    "started": 1763267421,
+    "ended": 1763267423,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.84,
+    "respect_loss": 1.71,
+    "chain": 788,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427442527,
+    "code": "eec2cba4804093036423fcd327d48569",
+    "started": 1763267410,
+    "ended": 1763267413,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.72,
+    "respect_loss": 1.68,
+    "chain": 787,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427441470,
+    "code": "391df2e7986a4ac79b487d77ec066e4d",
+    "started": 1763267097,
+    "ended": 1763267099,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.05,
+    "respect_loss": 1.76,
+    "chain": 785,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427441116,
+    "code": "73d92b9683d741ff95178e0a9630ddbd",
+    "started": 1763266994,
+    "ended": 1763266997,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.99,
+    "respect_loss": 2,
+    "chain": 783,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427438620,
+    "code": "539197a583034c6600f46917345e30e8",
+    "started": 1763266232,
+    "ended": 1763266235,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.72,
+    "respect_loss": 1.68,
+    "chain": 774,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427438040,
+    "code": "86fac52a8171fe93361c47c0ec3f16b8",
+    "started": 1763266060,
+    "ended": 1763266062,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.84,
+    "respect_loss": 1.71,
+    "chain": 771,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427436911,
+    "code": "caac27b75eaaf5660a6941ef6746a5ad",
+    "started": 1763265729,
+    "ended": 1763265732,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.99,
+    "respect_loss": 2,
+    "chain": 766,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427436371,
+    "code": "a89d5b0d9da509c82fa089bf7ee9c783",
+    "started": 1763265581,
+    "ended": 1763265587,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.05,
+    "respect_loss": 1.76,
+    "chain": 765,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427434945,
+    "code": "25cca8a179c35b2c50f189aff119935b",
+    "started": 1763265155,
+    "ended": 1763265157,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.84,
+    "respect_loss": 1.71,
+    "chain": 760,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427434079,
+    "code": "345c93ce82aad41082f56d705a0306bf",
+    "started": 1763264910,
+    "ended": 1763264912,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.72,
+    "respect_loss": 1.68,
+    "chain": 756,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427433579,
+    "code": "7f8688f28aa0b63a765e1a5e75b5ccf6",
+    "started": 1763264764,
+    "ended": 1763264766,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.99,
+    "respect_loss": 2,
+    "chain": 752,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427431540,
+    "code": "c2084facb4048ade8980ffaf47caf8a9",
+    "started": 1763264136,
+    "ended": 1763264139,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.05,
+    "respect_loss": 1.76,
+    "chain": 732,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427430682,
+    "code": "6d9eb8b611ca628138d1a991cdcc96b0",
+    "started": 1763263886,
+    "ended": 1763263894,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.79,
+    "respect_loss": 1.7,
+    "chain": 722,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427430406,
+    "code": "7742667f9ac33d5196de37d89888b265",
+    "started": 1763263808,
+    "ended": 1763263810,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.79,
+    "respect_loss": 1.7,
+    "chain": 715,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427430250,
+    "code": "40d107b2112c79fae256b210b21332a6",
+    "started": 1763263763,
+    "ended": 1763263767,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.68,
+    "respect_loss": 1.67,
+    "chain": 713,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427428156,
+    "code": "ae316563b1660d0d64fbc849e15b940e",
+    "started": 1763263199,
+    "ended": 1763263202,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.93,
+    "respect_loss": 1.98,
+    "chain": 693,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427427942,
+    "code": "28a2e3c7fb67c8b2b19087d6209bd858",
+    "started": 1763263152,
+    "ended": 1763263162,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3956749,
+      "name": "Mrlunkhead",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 9.94,
+    "respect_loss": 2.48,
+    "chain": 690,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.67,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427426336,
+    "code": "05dbf16b4e0cfdd06dcec3058b2c94d6",
+    "started": 1763262738,
+    "ended": 1763262740,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.68,
+    "respect_loss": 1.67,
+    "chain": 675,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427425428,
+    "code": "04de9d225aa7336add93ae1d15e92cc6",
+    "started": 1763262450,
+    "ended": 1763262452,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7,
+    "respect_loss": 1.75,
+    "chain": 670,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427424699,
+    "code": "e2a3852b775704bbbfddf6ee31000d1d",
+    "started": 1763262243,
+    "ended": 1763262248,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.79,
+    "respect_loss": 1.7,
+    "chain": 666,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427424461,
+    "code": "157fcff20983487f40b42ccaddda8545",
+    "started": 1763262176,
+    "ended": 1763262179,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.93,
+    "respect_loss": 1.98,
+    "chain": 663,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427416278,
+    "code": "415f2ef4c5503f314af9728c19ef3433",
+    "started": 1763259727,
+    "ended": 1763259730,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.59,
+    "respect_loss": 1.65,
+    "chain": 594,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.44,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427415596,
+    "code": "5126a6e5d0f4d3dda2438c7a9dacaa98",
+    "started": 1763259526,
+    "ended": 1763259528,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 427413966,
+    "code": "357e626c3ca73c5eab9d039c699af413",
+    "started": 1763259115,
+    "ended": 1763259118,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.7,
+    "respect_loss": 1.67,
+    "chain": 586,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.44,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427413824,
+    "code": "d2047ee776afc37c33d35a186e471f0d",
+    "started": 1763259077,
+    "ended": 1763259082,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.9,
+    "respect_loss": 1.73,
+    "chain": 584,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.44,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427410882,
+    "code": "ac779500a75370cadcc4bda5401fd5c4",
+    "started": 1763258282,
+    "ended": 1763258285,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.59,
+    "respect_loss": 1.65,
+    "chain": 571,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.44,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427408832,
+    "code": "1e29a1d1ddcb78927d35b1df487b269e",
+    "started": 1763257723,
+    "ended": 1763257724,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3956749,
+      "name": "Mrlunkhead",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 427386266,
+    "code": "454f3c65e783b3b5b9611a2bf91b37ad",
+    "started": 1763252835,
+    "ended": 1763252839,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.56,
+    "respect_loss": 1.64,
+    "chain": 425,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.41,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427383106,
+    "code": "3f371d6ee8a865ea794519d3f5ed7a66",
+    "started": 1763252182,
+    "ended": 1763252184,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.61,
+    "respect_loss": 1.9,
+    "chain": 403,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.4,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427382062,
+    "code": "e80d6e157b799265806c5383a8c95ea0",
+    "started": 1763251981,
+    "ended": 1763251983,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3966637,
+      "name": "Ickyj66",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.39,
+    "respect_loss": 2.1,
+    "chain": 399,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1.4,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427377874,
+    "code": "5639c75e075c25bd12a412cd8cf2801d",
+    "started": 1763251269,
+    "ended": 1763251272,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.46,
+    "respect_loss": 1.62,
+    "chain": 369,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.39,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427377662,
+    "code": "a88f634bd1a288ad37a7c3976c3ca658",
+    "started": 1763251237,
+    "ended": 1763251239,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.36,
+    "respect_loss": 1.59,
+    "chain": 367,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.39,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427376988,
+    "code": "835fd762c9080f8676dbccb479eafe56",
+    "started": 1763251096,
+    "ended": 1763251101,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3777636,
+      "name": "MacAttackNo1",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 427376497,
+    "code": "baf0879eca69c1275996a388fea032cb",
+    "started": 1763250986,
+    "ended": 1763250992,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2629944,
+      "name": "Aerwyna",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.28,
+    "respect_loss": 0.57,
+    "chain": 358,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.35,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.39,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427372905,
+    "code": "9c190d5fe82196289bf3961fbdfee9e7",
+    "started": 1763250271,
+    "ended": 1763250273,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.36,
+    "respect_loss": 1.59,
+    "chain": 347,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.39,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427372607,
+    "code": "5255027cef9caefd44668e6bd95012cf",
+    "started": 1763250214,
+    "ended": 1763250216,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2765942,
+      "name": "ac3rxx",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.93,
+    "respect_loss": 0.48,
+    "chain": 344,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427372451,
+    "code": "fcd3bcd0d0da8a7a86ca0efd74485a69",
+    "started": 1763250183,
+    "ended": 1763250186,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2616366,
+      "name": "AC2804",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.3,
+    "respect_loss": 0.57,
+    "chain": 342,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.37,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427372368,
+    "code": "723a9774c99d64787623f74d82e568ee",
+    "started": 1763250163,
+    "ended": 1763250165,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2681239,
+      "name": "abyssalsquid",
+      "level": 10,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.14,
+    "respect_loss": 0.54,
+    "chain": 341,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.26,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427372307,
+    "code": "67154e901562c7291ae07c864342267c",
+    "started": 1763250151,
+    "ended": 1763250153,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2792161,
+      "name": "abudebo",
+      "level": 10,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.93,
+    "respect_loss": 0.48,
+    "chain": 340,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427372233,
+    "code": "37335b998cdbc5c3a6d41ecfb3fbfbce",
+    "started": 1763250135,
+    "ended": 1763250142,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2607190,
+      "name": "Absnake",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.87,
+    "respect_loss": 0.72,
+    "chain": 339,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.71,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427372177,
+    "code": "01d2bb8c109267b06b38dc220dc2cd30",
+    "started": 1763250126,
+    "ended": 1763250129,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2652634,
+      "name": "Abroxous",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.43,
+    "respect_loss": 0.61,
+    "chain": 338,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427372096,
+    "code": "0ca8f3615bdf251d98272ea902284990",
+    "started": 1763250110,
+    "ended": 1763250117,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2766440,
+      "name": "AbramsBAtrociou",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.27,
+    "respect_loss": 0.57,
+    "chain": 337,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.35,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427371510,
+    "code": "a528d7a94b9e44f92ef98157187c2b98",
+    "started": 1763249980,
+    "ended": 1763249987,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2585857,
+      "name": "acrobaleno",
+      "level": 9,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.96,
+    "respect_loss": 0.49,
+    "chain": 336,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.17,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427370185,
+    "code": "956ff089533ae440e6d23ab6ab1d5922",
+    "started": 1763249706,
+    "ended": 1763249708,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.42,
+    "respect_loss": 1.61,
+    "chain": 330,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427368714,
+    "code": "2282c7655dc5bb4a2058bcf7d8768bd1",
+    "started": 1763249419,
+    "ended": 1763249421,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.42,
+    "respect_loss": 1.61,
+    "chain": 322,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427367843,
+    "code": "e09e34e2558fefd16c26b18c1e113816",
+    "started": 1763249256,
+    "ended": 1763249258,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3933767,
+      "name": "Yv0nn3",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.37,
+    "respect_loss": 1.59,
+    "chain": 316,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.37,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 427365838,
+    "code": "5e71ed17b7c280cc7e145ca0f84e7931",
+    "started": 1763248886,
+    "ended": 1763248888,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3003009,
+      "name": "Virus2080",
+      "level": 17,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.22,
+    "respect_loss": 1.55,
+    "chain": 288,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.36,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  }
+]
