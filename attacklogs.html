@@ -29,7 +29,7 @@
   </table>
 
   <script>
-    const members = ['Deviyl', 'Caits']; // add more member names here
+    const members = ['Deviyl', 'Caits']; // Add more member names here
     const tableBody = document.querySelector('#attacksTable tbody');
 
     function formatDate(unixTime) {
@@ -39,21 +39,27 @@
 
     async function loadAttacks() {
       for (const member of members) {
-        const response = await fetch(`attacks/${member}_attacks.json`);
-        const data = await response.json();
+        try {
+          // Use a relative path from the HTML file to the attacks folder
+          const response = await fetch(`./attacks/${member}_attacks.json`);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const data = await response.json();
 
-        if (!data.attacks) continue;
+          if (!data.attacks) continue;
 
-        for (const attack of data.attacks) {
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${attack.attacker.name}</td>
-            <td>${attack.defender.name}</td>
-            <td>${attack.result}</td>
-            <td>${formatDate(attack.started)}</td>
-            <td>${formatDate(attack.ended)}</td>
-          `;
-          tableBody.appendChild(row);
+          for (const attack of data.attacks) {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+              <td>${attack.attacker.name}</td>
+              <td>${attack.defender.name}</td>
+              <td>${attack.result}</td>
+              <td>${formatDate(attack.started)}</td>
+              <td>${formatDate(attack.ended)}</td>
+            `;
+            tableBody.appendChild(row);
+          }
+        } catch (err) {
+          console.error(`Failed to load attacks for ${member}:`, err);
         }
       }
     }
