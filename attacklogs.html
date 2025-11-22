@@ -45,7 +45,7 @@
   </table>
 
   <script>
-    const members = ['Deviyl', 'Caits']; // add more members
+    const members = ['Deviyl', 'Caits']; // Add more faction members here
     const tableBody = document.querySelector('#attacksTable tbody');
     const factionFilter = document.getElementById('factionFilter');
     const totalBleedSpan = document.getElementById('totalBleed');
@@ -71,11 +71,12 @@
             const respectGained = attack.respect_gain ?? 0;
             const respectLost = attack.respect_loss ?? 0;
 
+            const attackerFaction = attack.attacker?.faction?.name ?? 'none';
             let enemyFaction = 'none';
             if (attack.attacker?.name === member) {
               enemyFaction = attack.defender?.faction?.name ?? 'none';
             } else if (attack.defender?.name === member) {
-              enemyFaction = attack.attacker?.faction?.name ?? 'none';
+              enemyFaction = attackerFaction;
             }
 
             const result = attack.result || '';
@@ -83,9 +84,10 @@
             const ended = formatDate(attack.ended);
 
             const row = document.createElement('tr');
-            row.dataset.enemyFaction = enemyFaction;
+            row.dataset.attackerFaction = attackerFaction;
             row.dataset.defender = defenderName;
             row.dataset.respectLost = respectLost;
+            row.dataset.enemyFaction = enemyFaction;
 
             row.innerHTML = `
               <td>${attackerName}</td>
@@ -106,7 +108,7 @@
         }
       }
 
-      updateBleed(); // calculate bleed on initial load
+      updateBleed();
     }
 
     function updateBleed() {
@@ -114,22 +116,24 @@
       let totalBleed = 0;
 
       allRows.forEach(row => {
-        // Check if row matches selected faction (or show all)
+        // Show/hide rows based on selected faction
         if (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction) {
           row.style.display = '';
         } else {
           row.style.display = 'none';
         }
 
-        // Highlight bleed: defender is a member, enemy faction matches selected faction, respect lost > 0
-        if (
-          row.style.display !== 'none' &&
-          row.dataset.defender &&
-          row.dataset.enemyFaction === selectedFaction &&
-          Number(row.dataset.respectLost) > 0
-        ) {
+        // Highlight bleed:
+        // - Defender is a member
+        // - Attacker is from selected faction
+        // - Respect lost > 0
+        const isDefenderMember = members.includes(row.dataset.defender);
+        const isAttackerFromSelectedFaction = row.dataset.attackerFaction === selectedFaction;
+        const respectLost = Number(row.dataset.respectLost);
+
+        if (row.style.display !== 'none' && isDefenderMember && isAttackerFromSelectedFaction && respectLost > 0) {
           row.classList.add('bleed');
-          totalBleed += Number(row.dataset.respectLost);
+          totalBleed += respectLost;
         } else {
           row.classList.remove('bleed');
         }
