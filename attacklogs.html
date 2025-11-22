@@ -9,10 +9,19 @@
     th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
     th { background-color: #f2f2f2; }
     tr:nth-child(even) { background-color: #fafafa; }
+    select { margin-bottom: 10px; padding: 5px; }
   </style>
 </head>
 <body>
   <h1>Faction Attack Logs</h1>
+
+  <!-- Faction filter dropdown -->
+  <label for="factionFilter">Filter by Enemy Faction:</label>
+  <select id="factionFilter">
+    <option value="all">All</option>
+    <option value="IRON FORGE HQ">IRON FORGE HQ</option>
+  </select>
+
   <table id="attacksTable">
     <thead>
       <tr>
@@ -34,6 +43,8 @@
   <script>
     const members = ['Deviyl', 'Caits']; // Add more member names here
     const tableBody = document.querySelector('#attacksTable tbody');
+    const factionFilter = document.getElementById('factionFilter');
+    let allRows = []; // store all rows for filtering
 
     function formatDate(unixTime) {
       if (!unixTime) return '';
@@ -47,20 +58,14 @@
           const response = await fetch(`./attacks/${member}_attacks.json`);
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           const data = await response.json();
-
           if (!Array.isArray(data)) continue;
 
           for (const attack of data) {
-            // Attacker / Defender
             const attackerName = attack.attacker?.name ?? 'someone';
             const defenderName = attack.defender?.name ?? 'someone';
-
-            // Respect
             const respectGained = attack.respect_gain ?? 0;
             const respectLost = attack.respect_loss ?? 0;
 
-            // Enemy faction (we’ll consider the faction of the enemy, i.e., the member’s opponent)
-            // If attacker is the member, enemy is defender; if defender is the member, enemy is attacker
             let enemyFaction = 'none';
             if (attack.attacker?.name === member) {
               enemyFaction = attack.defender?.faction?.name ?? 'none';
@@ -73,6 +78,7 @@
             const ended = formatDate(attack.ended);
 
             const row = document.createElement('tr');
+            row.dataset.enemyFaction = enemyFaction; // store faction for filtering
             row.innerHTML = `
               <td>${attackerName}</td>
               <td>${defenderName}</td>
@@ -84,12 +90,25 @@
               <td>${ended}</td>
             `;
             tableBody.appendChild(row);
+            allRows.push(row);
           }
         } catch (err) {
           console.error(`Failed to load attacks for ${member}:`, err);
         }
       }
     }
+
+    // Filter function
+    factionFilter.addEventListener('change', () => {
+      const filterValue = factionFilter.value;
+      allRows.forEach(row => {
+        if (filterValue === 'all' || row.dataset.enemyFaction === filterValue) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    });
 
     loadAttacks();
   </script>
