@@ -1,7 +1,7 @@
 name: Run Update All Members
 
 on:
-  workflow_dispatch:   # manual trigger
+  workflow_dispatch:  # allows manual trigger
   schedule:
     - cron: "*/5 * * * *"  # optional: automatic run every 5 minutes
 
@@ -13,9 +13,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # ensures write access
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
-          fetch-depth: 0  # full history, safer for pushes
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
