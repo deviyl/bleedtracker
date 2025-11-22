@@ -12,6 +12,8 @@
     select, input[type="datetime-local"] { margin: 5px 10px 10px 0; padding: 5px; }
     .bleed { background-color: #ffcccc; }
     .member-bleed { margin-top: 10px; font-weight: bold; }
+    .collapsible { cursor: pointer; padding: 10px; border: 1px solid #ccc; margin-top: 10px; background: #eee; }
+    .content { display: none; padding: 10px; border: 1px solid #ccc; border-top: none; }
   </style>
 </head>
 <body>
@@ -39,34 +41,18 @@
   <!-- Member bleed summaries -->
   <div id="memberBleedSummary"></div>
 
-  <table id="attacksTable">
-    <thead>
-      <tr>
-        <th>Attacker</th>
-        <th>Defender</th>
-        <th>Result</th>
-        <th>Respect Gained</th>
-        <th>Respect Lost</th>
-        <th>Enemy Faction</th>
-        <th>Started (UTC)</th>
-        <th>Ended (UTC)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Attack rows will go here -->
-    </tbody>
-  </table>
+  <div id="membersContainer"></div>
 
   <script>
-    const members = ['Deviyl', 'Caits'];
-    const tableBody = document.querySelector('#attacksTable tbody');
     const factionFilter = document.getElementById('factionFilter');
     const startDateInput = document.getElementById('startDate');
     const endDateInput = document.getElementById('endDate');
     const totalBleedSpan = document.getElementById('totalBleed');
     const totalBleedAttacksSpan = document.getElementById('totalBleedAttacks');
     const memberBleedSummary = document.getElementById('memberBleedSummary');
-    let allRows = [];
+    const membersContainer = document.getElementById('membersContainer');
+    let members = [];
+    let allData = {};
 
     function formatDate(unixTime) {
       if (!unixTime) return '';
@@ -89,123 +75,149 @@
       return Math.floor(d.getTime() / 1000);
     }
 
+    async function loadMembers() {
+      // Hardcoding member JSON filenames. In a live system, a backend could provide the list dynamically.
+      const attackFiles = ['Deviyl_attacks.json','Caits_attacks.json'];
+      members = attackFiles.map(f => f.replace('_attacks.json',''));
+      await loadAttacks();
+    }
+
     async function loadAttacks() {
       for (const member of members) {
         try {
           const response = await fetch(`./attacks/${member}_attacks.json`);
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           const data = await response.json();
-          if (!Array.isArray(data)) continue;
-
-          for (const attack of data) {
-            const attackerName = attack.attacker?.name ?? 'someone';
-            const defenderName = attack.defender?.name ?? 'someone';
-            const respectGained = attack.respect_gain ?? 0;
-            const respectLost = attack.respect_loss ?? 0;
-            const attackerFaction = attack.attacker?.faction?.name ?? 'none';
-
-            let enemyFaction = 'none';
-            if (attack.attacker?.name === member) {
-              enemyFaction = attack.defender?.faction?.name ?? 'none';
-            } else if (attack.defender?.name === member) {
-              enemyFaction = attackerFaction;
-            }
-
-            const result = attack.result || '';
-            const startedUTC = formatDate(attack.started);
-            const endedUTC = formatDate(attack.ended);
-
-            const row = document.createElement('tr');
-            row.dataset.attacker = attackerName;
-            row.dataset.defender = defenderName;
-            row.dataset.attackerFaction = attackerFaction;
-            row.dataset.respectLost = respectLost;
-            row.dataset.respectGained = respectGained;
-            row.dataset.enemyFaction = enemyFaction;
-            row.dataset.startedUnix = attack.started ?? 0;
-            row.dataset.endedUnix = attack.ended ?? 0;
-
-            row.innerHTML = `
-              <td>${attackerName}</td>
-              <td>${defenderName}</td>
-              <td>${result}</td>
-              <td>${respectGained}</td>
-              <td>${respectLost}</td>
-              <td>${enemyFaction}</td>
-              <td>${startedUTC}</td>
-              <td>${endedUTC}</td>
-            `;
-
-            tableBody.appendChild(row);
-            allRows.push(row);
-          }
+          allData[member] = data.map(attack => {
+            return {
+              attackerName: attack.attacker?.name ?? 'someone',
+              defenderName: attack.defender?.name ?? 'someone',
+              respectGained: attack.respect_gain ?? 0,
+              respectLost: attack.respect_loss ?? 0,
+              attackerFaction: attack.attacker?.faction?.name ?? 'none',
+              defenderFaction: attack.defender?.faction?.name ?? 'none',
+              enemyFaction: attack.attacker?.name === member ? (attack.defender?.faction?.name ?? 'none') : (attack.attacker?.faction?.name ?? 'none'),
+              result: attack.result ?? '',
+              startedUnix: attack.started ?? 0,
+              endedUnix: attack.ended ?? 0,
+            };
+          });
         } catch (err) {
           console.error(`Failed to load attacks for ${member}:`, err);
+          allData[member] = [];
         }
       }
+      renderMembers();
       updateBleed();
+    }
+
+    function renderMembers() {
+      membersContainer.innerHTML = '';
+      members.forEach(member => {
+        const collapsible = document.createElement('div');
+        collapsible.className = 'collapsible';
+        collapsible.textContent = member;
+        const content = document.createElement('div');
+        content.className = 'content';
+
+        const table = document.createElement('table');
+        const thead = document.createElement('thead');
+        thead.innerHTML = `
+          <tr>
+            <th>Attacker</th>
+            <th>Defender</th>
+            <th>Result</th>
+            <th>Respect Gained</th>
+            <th>Respect Lost</th>
+            <th>Enemy Faction</th>
+            <th>Started (UTC)</th>
+            <th>Ended (UTC)</th>
+          </tr>
+        `;
+        table.appendChild(thead);
+        const tbody = document.createElement('tbody');
+        table.appendChild(tbody);
+        content.appendChild(table);
+
+        collapsible.addEventListener('click', () => {
+          content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        });
+
+        membersContainer.appendChild(collapsible);
+        membersContainer.appendChild(content);
+
+        allData[member].forEach(a => {
+          const row = document.createElement('tr');
+          row.dataset.defender = a.defenderName;
+          row.dataset.attackerFaction = a.attackerFaction;
+          row.dataset.enemyFaction = a.enemyFaction;
+          row.dataset.respectLost = a.respectLost;
+          row.dataset.respectGained = a.respectGained;
+          row.dataset.startedUnix = a.startedUnix;
+          row.dataset.endedUnix = a.endedUnix;
+          row.innerHTML = `
+            <td>${a.attackerName}</td>
+            <td>${a.defenderName}</td>
+            <td>${a.result}</td>
+            <td>${a.respectGained}</td>
+            <td>${a.respectLost}</td>
+            <td>${a.enemyFaction}</td>
+            <td>${formatDate(a.startedUnix)}</td>
+            <td>${formatDate(a.endedUnix)}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      });
     }
 
     function updateBleed() {
       const selectedFaction = factionFilter.value;
-
-      let totalBleed = 0;
-      let totalBleedAttacks = 0;
-
-      const perMemberBleed = {};
-      const perMemberOutgoingCount = {};
-      const perMemberOutgoingRespect = {};
-
-      members.forEach(m => {
-        perMemberBleed[m] = 0;
-        perMemberOutgoingCount[m] = 0;
-        perMemberOutgoingRespect[m] = 0;
-      });
-
       const startUnix = utcInputToUnix(startDateInput.value);
       const endUnix = utcInputToUnix(endDateInput.value);
 
-      allRows.forEach(row => {
-        let showRow = (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction);
+      let totalBleed = 0;
+      let totalBleedAttacks = 0;
+      const perMemberBleed = {};
+      const perMemberBleedAttacks = {};
+      const perMemberOutgoing = {};
+      members.forEach(m => {
+        perMemberBleed[m] = 0;
+        perMemberBleedAttacks[m] = 0;
+        perMemberOutgoing[m] = 0;
+      });
 
-        const attackStartTime = Number(row.dataset.startedUnix);
-        const attackEndTime = Number(row.dataset.endedUnix);
+      members.forEach(member => {
+        const tbody = membersContainer.querySelectorAll('.content table tbody')[members.indexOf(member)];
+        tbody.querySelectorAll('tr').forEach(row => {
+          let showRow = (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction);
 
-        if (startUnix !== null && attackEndTime < startUnix) showRow = false;
-        if (endUnix !== null && attackStartTime > endUnix) showRow = false;
+          const attackStart = Number(row.dataset.startedUnix);
+          const attackEnd = Number(row.dataset.endedUnix);
+          if (startUnix !== null && attackEnd < startUnix) showRow = false;
+          if (endUnix !== null && attackStart > endUnix) showRow = false;
 
-        row.style.display = showRow ? '' : 'none';
+          row.style.display = showRow ? '' : 'none';
 
-        const attacker = row.dataset.attacker;
-        const defender = row.dataset.defender;
-        const attackerFaction = row.dataset.attackerFaction;
-        const respectLost = Number(row.dataset.respectLost);
-        const respectGained = Number(row.dataset.respectGained);
+          const isDefender = row.dataset.defender === member;
+          const respectLost = Number(row.dataset.respectLost);
+          const respectGained = Number(row.dataset.respectGained);
+          const isAttackerFromSelectedFaction = row.dataset.attackerFaction === selectedFaction;
 
-        const incomingBleed = (
-          showRow &&
-          members.includes(defender) &&
-          attackerFaction === selectedFaction &&
-          respectLost > 0
-        );
+          if (showRow && isDefender && isAttackerFromSelectedFaction && respectLost > 0) {
+            row.classList.add('bleed');
+            totalBleed += respectLost;
+            totalBleedAttacks++;
+            perMemberBleed[member] += respectLost;
+            perMemberBleedAttacks[member] += 1;
+          } else {
+            row.classList.remove('bleed');
+          }
 
-        if (incomingBleed) {
-          row.classList.add('bleed');
-          totalBleed += respectLost;
-          totalBleedAttacks++;
-          perMemberBleed[defender] += respectLost;
-        } else {
-          row.classList.remove('bleed');
-        }
-
-        if (
-          showRow &&
-          members.includes(attacker) &&
-          row.dataset.enemyFaction === selectedFaction
-        ) {
-          perMemberOutgoingCount[attacker]++;
-          perMemberOutgoingRespect[attacker] += respectGained;
-        }
+          // outgoing attacks
+          if (showRow && row.dataset.attackerFaction === member && row.dataset.enemyFaction === selectedFaction) {
+            perMemberOutgoing[member] += respectGained;
+          }
+        });
       });
 
       totalBleedSpan.textContent = totalBleed;
@@ -215,10 +227,7 @@
       members.forEach(member => {
         const div = document.createElement('div');
         div.className = 'member-bleed';
-        div.textContent =
-          `${member}: ${perMemberBleed[member]} bleed | `
-          + `${perMemberOutgoingCount[member]} outgoing | `
-          + `${perMemberOutgoingRespect[member]} respect gained`;
+        div.textContent = `${member}: ${perMemberBleed[member]} bleed from ${perMemberBleedAttacks[member]} attacks, ${perMemberOutgoing[member]} respect gained outgoing`;
         memberBleedSummary.appendChild(div);
       });
     }
@@ -227,7 +236,7 @@
     startDateInput.addEventListener('change', updateBleed);
     endDateInput.addEventListener('change', updateBleed);
 
-    loadAttacks();
+    loadMembers();
   </script>
 </body>
 </html>
