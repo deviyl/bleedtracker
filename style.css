@@ -1,46 +1,93 @@
-/* Total bleed summary at the top */
-#totalBleed, #totalBleedAttacks {
-  font-weight: bold;
-  color: #f39c12;
-  margin-left: 5px;
-}
-
-/* Container for all member summaries */
-#memberBleedSummary {
-  margin-top: 10px;
-}
-
-/* Individual member summaries */
-.member-summary {
-  background-color: #2c2c2c;
-  padding: 8px 12px;
-  margin-bottom: 5px;
-  border-left: 4px solid #f39c12;
-  border-radius: 3px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.95em;
+/* Base body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #1e1e1e;
   color: #e0e0e0;
 }
 
-/* Highlight bleed and outgoing in summaries */
-.member-summary .bleed-total {
-  color: #ff4d4d;
+/* Headings */
+h1 {
+  color: #f39c12;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Filters */
+label, select, input[type="datetime-local"] {
+  margin: 5px 10px 10px 0;
+  padding: 5px;
+  background-color: #2c2c2c;
+  border: 1px solid #555;
+  color: #e0e0e0;
+}
+
+/* Member summaries */
+.member-bleed, .member-summary {
+  margin-top: 10px;
   font-weight: bold;
-  margin-right: 10px;
+  background-color: #2c2c2c;
+  padding: 5px 10px;
+  border-left: 4px solid #f39c12;
+  border-radius: 2px;
 }
 
-.member-summary .outgoing-total {
-  color: #4db8ff;
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #2c2c2c;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #3a3a3a;
+  color: #f39c12;
+}
+
+tr:nth-child(even) {
+  background-color: #272727;
+}
+
+tr:nth-child(odd) {
+  background-color: #2e2e2e;
+}
+
+/* Bleed highlighting */
+.bleed {
+  background-color: #8b0000 !important;
+  color: #fff;
+}
+
+/* Collapsibles */
+details summary {
+  cursor: pointer;
   font-weight: bold;
+  padding: 5px;
+  background-color: #3a3a3a;
+  border-radius: 2px;
+  border-left: 4px solid #f39c12;
+  margin-bottom: 2px;
 }
 
-/* Optional small icons before totals */
-.member-summary .bleed-total::before {
-  content: "⚔️ ";
+details[open] summary {
+  background-color: #444;
 }
 
-.member-summary .outgoing-total::before {
-  content: "💰 ";
+/* Scrollable table if too many rows */
+table tbody {
+  display: block;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+table thead, table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
