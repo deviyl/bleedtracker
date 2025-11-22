@@ -17,10 +17,14 @@ def fetch_attacks(api_key):
 
 if __name__ == "__main__":
     members = load_members()
+
+    # Ensure the attacks folder exists
+    os.makedirs("attacks", exist_ok=True)
+
     for name, api_key in members.items():
         print(f"Fetching attacks for {name}...")
         attacks = fetch_attacks(api_key)
-        filename = f"{name}_attacks.json"
+        filename = f"attacks/{name}_attacks.json"
         with open(filename, "w") as f:
             json.dump(attacks, f, indent=2)
         print(f"Saved {len(attacks)} attacks to {filename}")
