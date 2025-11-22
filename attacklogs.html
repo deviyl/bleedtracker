@@ -116,9 +116,11 @@
             const endedUTC = formatDate(attack.ended);
 
             const row = document.createElement('tr');
-            row.dataset.attackerFaction = attackerFaction;
+            row.dataset.attacker = attackerName;
             row.dataset.defender = defenderName;
+            row.dataset.attackerFaction = attackerFaction;
             row.dataset.respectLost = respectLost;
+            row.dataset.respectGained = respectGained;
             row.dataset.enemyFaction = enemyFaction;
             row.dataset.startedUnix = attack.started ?? 0;
             row.dataset.endedUnix = attack.ended ?? 0;
@@ -150,11 +152,14 @@
       let totalBleed = 0;
       let totalBleedAttacks = 0;
 
-      const perMemberBleedRespect = {};
-      const perMemberBleedAttacks = {};
+      const perMemberBleed = {};
+      const perMemberOutgoingCount = {};
+      const perMemberOutgoingRespect = {};
+
       members.forEach(m => {
-        perMemberBleedRespect[m] = 0;
-        perMemberBleedAttacks[m] = 0;
+        perMemberBleed[m] = 0;
+        perMemberOutgoingCount[m] = 0;
+        perMemberOutgoingRespect[m] = 0;
       });
 
       const startUnix = utcInputToUnix(startDateInput.value);
@@ -165,23 +170,41 @@
 
         const attackStartTime = Number(row.dataset.startedUnix);
         const attackEndTime = Number(row.dataset.endedUnix);
+
         if (startUnix !== null && attackEndTime < startUnix) showRow = false;
         if (endUnix !== null && attackStartTime > endUnix) showRow = false;
 
         row.style.display = showRow ? '' : 'none';
 
-        const isDefenderMember = members.includes(row.dataset.defender);
-        const isAttackerFromSelectedFaction = row.dataset.attackerFaction === selectedFaction;
+        const attacker = row.dataset.attacker;
+        const defender = row.dataset.defender;
+        const attackerFaction = row.dataset.attackerFaction;
         const respectLost = Number(row.dataset.respectLost);
+        const respectGained = Number(row.dataset.respectGained);
 
-        if (showRow && isDefenderMember && isAttackerFromSelectedFaction && respectLost > 0) {
+        const incomingBleed = (
+          showRow &&
+          members.includes(defender) &&
+          attackerFaction === selectedFaction &&
+          respectLost > 0
+        );
+
+        if (incomingBleed) {
           row.classList.add('bleed');
           totalBleed += respectLost;
           totalBleedAttacks++;
-          perMemberBleedRespect[row.dataset.defender] += respectLost;
-          perMemberBleedAttacks[row.dataset.defender]++;
+          perMemberBleed[defender] += respectLost;
         } else {
           row.classList.remove('bleed');
+        }
+
+        if (
+          showRow &&
+          members.includes(attacker) &&
+          row.dataset.enemyFaction === selectedFaction
+        ) {
+          perMemberOutgoingCount[attacker]++;
+          perMemberOutgoingRespect[attacker] += respectGained;
         }
       });
 
@@ -192,7 +215,10 @@
       members.forEach(member => {
         const div = document.createElement('div');
         div.className = 'member-bleed';
-        div.textContent = `${member}: ${perMemberBleedRespect[member]} bleed (${perMemberBleedAttacks[member]} attacks)`;
+        div.textContent =
+          `${member}: ${perMemberBleed[member]} bleed | `
+          + `${perMemberOutgoingCount[member]} outgoing | `
+          + `${perMemberOutgoingRespect[member]} respect gained`;
         memberBleedSummary.appendChild(div);
       });
     }
