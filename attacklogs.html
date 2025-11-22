@@ -10,18 +10,20 @@
     th { background-color: #f2f2f2; }
     tr:nth-child(even) { background-color: #fafafa; }
     select { margin-bottom: 10px; padding: 5px; }
+    .bleed { background-color: #ffcccc; } /* highlight bleed attacks */
   </style>
 </head>
 <body>
   <h1>Faction Attack Logs</h1>
 
-  <!-- Faction filter dropdown -->
   <label for="factionFilter">Filter by Enemy Faction:</label>
   <select id="factionFilter">
     <option value="all">All</option>
     <option value="IRON FORGE HQ">IRON FORGE HQ</option>
     <option value="Mana">Mana</option>
   </select>
+
+  <p>Total Bleed (respect lost to Mana): <span id="totalBleed">0</span></p>
 
   <table id="attacksTable">
     <thead>
@@ -42,10 +44,12 @@
   </table>
 
   <script>
-    const members = ['Deviyl', 'Caits']; // Add more member names here
+    const members = ['Deviyl', 'Caits']; // add more members
     const tableBody = document.querySelector('#attacksTable tbody');
     const factionFilter = document.getElementById('factionFilter');
-    let allRows = []; // store all rows for filtering
+    const totalBleedSpan = document.getElementById('totalBleed');
+    let allRows = [];
+    const warFaction = 'Mana'; // current war faction
 
     function formatDate(unixTime) {
       if (!unixTime) return '';
@@ -54,6 +58,8 @@
     }
 
     async function loadAttacks() {
+      let totalBleed = 0;
+
       for (const member of members) {
         try {
           const response = await fetch(`./attacks/${member}_attacks.json`);
@@ -79,7 +85,15 @@
             const ended = formatDate(attack.ended);
 
             const row = document.createElement('tr');
-            row.dataset.enemyFaction = enemyFaction; // store faction for filtering
+            row.dataset.enemyFaction = enemyFaction;
+
+            // Mark bleed: defender is member, enemy faction is war faction, respect lost > 0
+            const isBleed = attack.defender?.name === member && enemyFaction === warFaction && respectLost > 0;
+            if (isBleed) {
+              row.classList.add('bleed');
+              totalBleed += respectLost;
+            }
+
             row.innerHTML = `
               <td>${attackerName}</td>
               <td>${defenderName}</td>
@@ -90,6 +104,7 @@
               <td>${started}</td>
               <td>${ended}</td>
             `;
+
             tableBody.appendChild(row);
             allRows.push(row);
           }
@@ -97,9 +112,10 @@
           console.error(`Failed to load attacks for ${member}:`, err);
         }
       }
+
+      totalBleedSpan.textContent = totalBleed;
     }
 
-    // Filter function
     factionFilter.addEventListener('change', () => {
       const filterValue = factionFilter.value;
       allRows.forEach(row => {
