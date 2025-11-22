@@ -78,12 +78,11 @@
 
     function utcInputToUnix(inputValue) {
       if (!inputValue) return null;
-      // inputValue: "YYYY-MM-DDTHH:MM"
       const [datePart, timePart] = inputValue.split('T');
       const [year, month, day] = datePart.split('-').map(Number);
       const [hour, minute] = timePart.split(':').map(Number);
       const d = new Date(Date.UTC(year, month - 1, day, hour, minute, 0));
-      return Math.floor(d.getTime() / 1000); // seconds since epoch UTC
+      return Math.floor(d.getTime() / 1000);
     }
 
     async function loadAttacks() {
@@ -118,6 +117,7 @@
             row.dataset.respectLost = respectLost;
             row.dataset.enemyFaction = enemyFaction;
             row.dataset.startedUnix = attack.started ?? 0;
+            row.dataset.endedUnix = attack.ended ?? 0;
 
             row.innerHTML = `
               <td>${attackerName}</td>
@@ -153,7 +153,8 @@
         let showRow = (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction);
 
         const attackStartTime = Number(row.dataset.startedUnix);
-        if (startUnix !== null && attackStartTime < startUnix) showRow = false;
+        const attackEndTime = Number(row.dataset.endedUnix);
+        if (startUnix !== null && attackEndTime < startUnix) showRow = false;
         if (endUnix !== null && attackStartTime > endUnix) showRow = false;
 
         row.style.display = showRow ? '' : 'none';
