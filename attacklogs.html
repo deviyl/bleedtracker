@@ -25,10 +25,10 @@
     <option value="Mana">Mana</option>
   </select>
 
-  <label for="startDate">Start Date/Time:</label>
+  <label for="startDate">Start Date/Time (UTC):</label>
   <input type="datetime-local" id="startDate">
 
-  <label for="endDate">End Date/Time:</label>
+  <label for="endDate">End Date/Time (UTC):</label>
   <input type="datetime-local" id="endDate">
 
   <p>Total Bleed (respect lost to selected faction): <span id="totalBleed">0</span></p>
@@ -74,6 +74,16 @@
       const minutes = String(d.getUTCMinutes()).padStart(2, '0');
       const seconds = String(d.getUTCSeconds()).padStart(2, '0');
       return `${year}-${month}-${day} ${hours}:${minutes}:${seconds} UTC`;
+    }
+
+    function utcInputToUnix(inputValue) {
+      if (!inputValue) return null;
+      // inputValue: "YYYY-MM-DDTHH:MM"
+      const [datePart, timePart] = inputValue.split('T');
+      const [year, month, day] = datePart.split('-').map(Number);
+      const [hour, minute] = timePart.split(':').map(Number);
+      const d = new Date(Date.UTC(year, month - 1, day, hour, minute, 0));
+      return Math.floor(d.getTime() / 1000); // seconds since epoch UTC
     }
 
     async function loadAttacks() {
@@ -136,8 +146,8 @@
       const perMemberBleed = {};
       members.forEach(m => perMemberBleed[m] = 0);
 
-      const startUnix = startDateInput.value ? new Date(startDateInput.value).getTime() / 1000 : null;
-      const endUnix = endDateInput.value ? new Date(endDateInput.value).getTime() / 1000 : null;
+      const startUnix = utcInputToUnix(startDateInput.value);
+      const endUnix = utcInputToUnix(endDateInput.value);
 
       allRows.forEach(row => {
         let showRow = (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction);
