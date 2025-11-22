@@ -16,6 +16,7 @@
 <body>
   <h1>Faction Attack Logs</h1>
 
+  <!-- Faction filter dropdown -->
   <label for="factionFilter">Filter by Enemy Faction:</label>
   <select id="factionFilter">
     <option value="all">All</option>
@@ -23,7 +24,7 @@
     <option value="Mana">Mana</option>
   </select>
 
-  <p>Total Bleed (respect lost to Mana): <span id="totalBleed">0</span></p>
+  <p>Total Bleed (respect lost to selected faction): <span id="totalBleed">0</span></p>
 
   <table id="attacksTable">
     <thead>
@@ -49,7 +50,6 @@
     const factionFilter = document.getElementById('factionFilter');
     const totalBleedSpan = document.getElementById('totalBleed');
     let allRows = [];
-    const warFaction = 'Mana'; // current war faction
 
     function formatDate(unixTime) {
       if (!unixTime) return '';
@@ -58,8 +58,6 @@
     }
 
     async function loadAttacks() {
-      let totalBleed = 0;
-
       for (const member of members) {
         try {
           const response = await fetch(`./attacks/${member}_attacks.json`);
@@ -86,13 +84,8 @@
 
             const row = document.createElement('tr');
             row.dataset.enemyFaction = enemyFaction;
-
-            // Mark bleed: defender is member, enemy faction is war faction, respect lost > 0
-            const isBleed = attack.defender?.name === member && enemyFaction === warFaction && respectLost > 0;
-            if (isBleed) {
-              row.classList.add('bleed');
-              totalBleed += respectLost;
-            }
+            row.dataset.defender = defenderName;
+            row.dataset.respectLost = respectLost;
 
             row.innerHTML = `
               <td>${attackerName}</td>
@@ -113,19 +106,39 @@
         }
       }
 
-      totalBleedSpan.textContent = totalBleed;
+      updateBleed(); // calculate bleed on initial load
     }
 
-    factionFilter.addEventListener('change', () => {
-      const filterValue = factionFilter.value;
+    function updateBleed() {
+      const selectedFaction = factionFilter.value;
+      let totalBleed = 0;
+
       allRows.forEach(row => {
-        if (filterValue === 'all' || row.dataset.enemyFaction === filterValue) {
+        // Check if row matches selected faction (or show all)
+        if (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction) {
           row.style.display = '';
         } else {
           row.style.display = 'none';
         }
+
+        // Highlight bleed: defender is a member, enemy faction matches selected faction, respect lost > 0
+        if (
+          row.style.display !== 'none' &&
+          row.dataset.defender &&
+          row.dataset.enemyFaction === selectedFaction &&
+          Number(row.dataset.respectLost) > 0
+        ) {
+          row.classList.add('bleed');
+          totalBleed += Number(row.dataset.respectLost);
+        } else {
+          row.classList.remove('bleed');
+        }
       });
-    });
+
+      totalBleedSpan.textContent = totalBleed;
+    }
+
+    factionFilter.addEventListener('change', updateBleed);
 
     loadAttacks();
   </script>
