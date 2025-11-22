@@ -1,7 +1,7 @@
 name: Run Update All Members
 
 on:
-  workflow_dispatch:  # allows manual trigger
+  workflow_dispatch  # allows manual trigger
   schedule:
     - cron: "*/5 * * * *"  # optional: automatic run every 5 minutes
 
