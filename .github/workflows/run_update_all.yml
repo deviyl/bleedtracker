@@ -1,0 +1,23 @@
+name: Run Update All Members
+
+on:
+  workflow_dispatch:  # allows you to trigger it manually
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run update script
+        env:
+          MEMBERS_API: ${{ secrets.MEMBERS_API }}
+        run: |
+          python3 update_all_members.py
