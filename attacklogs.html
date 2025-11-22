@@ -1,170 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<title>Faction Attack Logs</title>
-<style>
-  body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
-  h1 { margin-bottom: 10px; }
-  table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
-  th, td { padding: 8px; border: 1px solid #ccc; text-align: left; }
-  th { background: #eee; }
-  .bleed { background-color: #ffcccc !important; }
-  #summaryBox { background: #fff; padding: 15px; border: 1px solid #aaa; margin-top: 15px; }
-  #summaryBox h2 { margin-top: 0; }
-  .summaryRow { margin-bottom: 5px; }
-</style>
+  <meta charset="UTF-8">
+  <title>Faction Attack Logs</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    tr:nth-child(even) { background-color: #fafafa; }
+    select, input[type="datetime-local"] { margin: 5px 10px 10px 0; padding: 5px; }
+    .bleed { background-color: #ffcccc; }
+    .member-bleed { margin-top: 10px; font-weight: bold; }
+  </style>
 </head>
 <body>
+  <h1>Faction Attack Logs</h1>
 
-<h1>Faction Attack Logs</h1>
+  <!-- Filters -->
+  <label for="factionFilter">Filter by Enemy Faction:</label>
+  <select id="factionFilter">
+    <option value="all">All</option>
+    <option value="IRON FORGE HQ">IRON FORGE HQ</option>
+    <option value="Mana">Mana</option>
+  </select>
 
-<label>Select Enemy Faction:</label>
-<select id="factionFilter">
-  <option value="">-- Show All --</option>
-  <option value="49319">IRON FORGE HQ</option>
-  <option value="8677">Mana</option>
-</select>
+  <label for="startDate">Start Date/Time (UTC):</label>
+  <input type="datetime-local" id="startDate">
 
-<br><br>
+  <label for="endDate">End Date/Time (UTC):</label>
+  <input type="datetime-local" id="endDate">
 
-<label>Start (UTC):</label>
-<input type="datetime-local" id="startTime" />
+  <p>Total Bleed (respect lost to selected faction): <span id="totalBleed">0</span></p>
 
-<label>End (UTC):</label>
-<input type="datetime-local" id="endTime" />
+  <!-- Member bleed summaries -->
+  <div id="memberBleedSummary"></div>
 
-<button onclick="applyFilters()">Apply Filters</button>
+  <table id="attacksTable">
+    <thead>
+      <tr>
+        <th>Attacker</th>
+        <th>Defender</th>
+        <th>Result</th>
+        <th>Respect Gained</th>
+        <th>Respect Lost</th>
+        <th>Enemy Faction</th>
+        <th>Started (UTC)</th>
+        <th>Ended (UTC)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Attack rows will go here -->
+    </tbody>
+  </table>
 
-<div id="summaryBox">
-  <h2>Member Bleed Summary</h2>
-  <div id="summaryContent">Select a faction to see bleed summary.</div>
-</div>
+  <script>
+    const members = ['Deviyl', 'Caits'];
+    const tableBody = document.querySelector('#attacksTable tbody');
+    const factionFilter = document.getElementById('factionFilter');
+    const startDateInput = document.getElementById('startDate');
+    const endDateInput = document.getElementById('endDate');
+    const totalBleedSpan = document.getElementById('totalBleed');
+    const memberBleedSummary = document.getElementById('memberBleedSummary');
+    let allRows = [];
 
-<table id="attackTable">
-  <thead>
-    <tr>
-      <th>Time (UTC)</th>
-      <th>Attacker</th>
-      <th>Attacker Faction</th>
-      <th>Defender</th>
-      <th>Defender Faction</th>
-      <th>Result</th>
-      <th>Respect Gain</th>
-      <th>Respect Loss</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-
-<script>
-const members = ["Caits", "Deviyl"];
-let allAttacks = {};
-let tableBody = document.querySelector("#attackTable tbody");
-
-async function loadAll() {
-  for (let name of members) {
-    try {
-      const res = await fetch(`attacks/${name}_attacks.json`);
-      const data = await res.json();
-      allAttacks[name] = data;
-    } catch (err) {
-      console.error("Load error for " + name, err);
-      allAttacks[name] = [];
+    function formatDate(unixTime) {
+      if (!unixTime) return '';
+      const d = new Date(unixTime * 1000);
+      const year = d.getUTCFullYear();
+      const month = String(d.getUTCMonth() + 1).padStart(2, '0');
+      const day = String(d.getUTCDate()).padStart(2, '0');
+      const hours = String(d.getUTCHours()).padStart(2, '0');
+      const minutes = String(d.getUTCMinutes()).padStart(2, '0');
+      const seconds = String(d.getUTCSeconds()).padStart(2, '0');
+      return `${year}-${month}-${day} ${hours}:${minutes}:${seconds} UTC`;
     }
-  }
-  applyFilters();
-}
 
-function formatUTC(ts) {
-  return new Date(ts * 1000).toISOString().replace("T", " ").replace(".000Z", " UTC");
-}
+    function utcInputToUnix(inputValue) {
+      if (!inputValue) return null;
+      const [datePart, timePart] = inputValue.split('T');
+      const [year, month, day] = datePart.split('-').map(Number);
+      const [hour, minute] = timePart.split(':').map(Number);
+      const d = new Date(Date.UTC(year, month - 1, day, hour, minute, 0));
+      return Math.floor(d.getTime() / 1000);
+    }
 
-function applyFilters() {
-  const faction = document.getElementById("factionFilter").value;
-  const startVal = document.getElementById("startTime").value;
-  const endVal = document.getElementById("endTime").value;
+    async function loadAttacks() {
+      for (const member of members) {
+        try {
+          const response = await fetch(`./attacks/${member}_attacks.json`);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const data = await response.json();
+          if (!Array.isArray(data)) continue;
 
-  const startTS = startVal ? Date.parse(startVal + "Z") / 1000 : null;
-  const endTS = endVal ? Date.parse(endVal + "Z") / 1000 : null;
+          for (const attack of data) {
+            const attackerName = attack.attacker?.name ?? 'someone';
+            const defenderName = attack.defender?.name ?? 'someone';
+            const respectGained = attack.respect_gain ?? 0;
+            const respectLost = attack.respect_loss ?? 0;
+            const attackerFaction = attack.attacker?.faction?.name ?? 'none';
 
-  tableBody.innerHTML = "";
+            let enemyFaction = 'none';
+            if (attack.attacker?.name === member) {
+              enemyFaction = attack.defender?.faction?.name ?? 'none';
+            } else if (attack.defender?.name === member) {
+              enemyFaction = attackerFaction;
+            }
 
-  let summary = {};
-  members.forEach(m => summary[m] = { attacksReceived: 0, respectLost: 0 });
+            const result = attack.result || '';
+            const startedUTC = formatDate(attack.started);
+            const endedUTC = formatDate(attack.ended);
 
-  members.forEach(member => {
-    allAttacks[member].forEach(a => {
-      const ts = a.ended ?? a.started;
+            const row = document.createElement('tr');
+            row.dataset.attackerFaction = attackerFaction;
+            row.dataset.defender = defenderName;
+            row.dataset.respectLost = respectLost;
+            row.dataset.enemyFaction = enemyFaction;
+            row.dataset.startedUnix = attack.started ?? 0;
+            row.dataset.endedUnix = attack.ended ?? 0;
 
-      if (startTS && ts < startTS) return;
-      if (endTS && ts > endTS) return;
+            row.innerHTML = `
+              <td>${attackerName}</td>
+              <td>${defenderName}</td>
+              <td>${result}</td>
+              <td>${respectGained}</td>
+              <td>${respectLost}</td>
+              <td>${enemyFaction}</td>
+              <td>${startedUTC}</td>
+              <td>${endedUTC}</td>
+            `;
 
-      let atkName = a.attacker?.name ?? "Someone";
-      let defName = a.defender?.name ?? "Someone";
-      let atkFaction = a.attacker?.faction?.name ?? "None";
-      let atkFactionID = a.attacker?.faction?.id ?? null;
-      let defFaction = a.defender?.faction?.name ?? "None";
-      let result = a.result ?? "";
-      let gain = a.respect_gain ?? 0;
-      let loss = a.respect_loss ?? 0;
-
-      let isBleed = false;
-
-      if (faction && atkFactionID == faction) {
-        isBleed = true;
-
-        if (a.defender?.name === member) {
-          summary[member].attacksReceived += 1;
-          summary[member].respectLost += loss;
+            tableBody.appendChild(row);
+            allRows.push(row);
+          }
+        } catch (err) {
+          console.error(`Failed to load attacks for ${member}:`, err);
         }
       }
+      updateBleed();
+    }
 
-      const row = document.createElement("tr");
-      if (isBleed) row.classList.add("bleed");
+    function updateBleed() {
+      const selectedFaction = factionFilter.value;
+      let totalBleed = 0;
+      const perMemberBleed = {};
+      members.forEach(m => perMemberBleed[m] = 0);
 
-      row.innerHTML = `
-        <td>${formatUTC(ts)}</td>
-        <td>${atkName}</td>
-        <td>${atkFaction}</td>
-        <td>${defName}</td>
-        <td>${defFaction}</td>
-        <td>${result}</td>
-        <td>${gain}</td>
-        <td>${loss}</td>
-      `;
-      tableBody.appendChild(row);
-    });
-  });
+      const startUnix = utcInputToUnix(startDateInput.value);
+      const endUnix = utcInputToUnix(endDateInput.value);
 
-  updateSummary(summary, faction);
-}
+      allRows.forEach(row => {
+        let showRow = (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction);
 
-function updateSummary(summary, faction) {
-  const box = document.getElementById("summaryContent");
+        const attackStartTime = Number(row.dataset.startedUnix);
+        const attackEndTime = Number(row.dataset.endedUnix);
+        if (startUnix !== null && attackEndTime < startUnix) showRow = false;
+        if (endUnix !== null && attackStartTime > endUnix) showRow = false;
 
-  if (!faction) {
-    box.innerHTML = "Select a faction to see bleed summary.";
-    return;
-  }
+        row.style.display = showRow ? '' : 'none';
 
-  let html = "";
+        const isDefenderMember = members.includes(row.dataset.defender);
+        const isAttackerFromSelectedFaction = row.dataset.attackerFaction === selectedFaction;
+        const respectLost = Number(row.dataset.respectLost);
 
-  for (let member of members) {
-    html += `
-      <div class="summaryRow">
-        <strong>${member}</strong> —
-        Attacks Received: ${summary[member].attacksReceived},
-        Respect Lost: ${summary[member].respectLost}
-      </div>
-    `;
-  }
+        if (showRow && isDefenderMember && isAttackerFromSelectedFaction && respectLost > 0) {
+          row.classList.add('bleed');
+          totalBleed += respectLost;
+          perMemberBleed[row.dataset.defender] += respectLost;
+        } else {
+          row.classList.remove('bleed');
+        }
+      });
 
-  box.innerHTML = html;
-}
+      totalBleedSpan.textContent = totalBleed;
 
-loadAll();
-</script>
+      memberBleedSummary.innerHTML = '';
+      members.forEach(member => {
+        const div = document.createElement('div');
+        div.className = 'member-bleed';
+        div.textContent = `${member}: ${perMemberBleed[member]} bleed`;
+        memberBleedSummary.appendChild(div);
+      });
+    }
 
+    factionFilter.addEventListener('change', updateBleed);
+    startDateInput.addEventListener('change', updateBleed);
+    endDateInput.addEventListener('change', updateBleed);
+
+    loadAttacks();
+  </script>
 </body>
 </html>
