@@ -1,4 +1,4 @@
-const members = ['Deviyl','Caits']; // Keep this hardcoded for now
+const members = ['Deviyl', 'Caits']; // Keep this hardcoded for now
 const factionFilter = document.getElementById('factionFilter');
 const startDateInput = document.getElementById('startDate');
 const endDateInput = document.getElementById('endDate');
@@ -150,7 +150,7 @@ function updateBleed() {
       tbody.appendChild(row);
     });
 
-    // Show only if there’s any bleed or outgoing? (optional)
+    // Show section only if there’s any attack
     section.style.display = tbody.children.length > 0 ? '' : 'none';
 
     // Member summary
