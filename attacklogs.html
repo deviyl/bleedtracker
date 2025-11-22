@@ -33,6 +33,7 @@
     const tableBody = document.querySelector('#attacksTable tbody');
 
     function formatDate(unixTime) {
+      if (!unixTime) return '';
       const d = new Date(unixTime * 1000);
       return d.toLocaleString();
     }
@@ -44,17 +45,23 @@
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           const data = await response.json();
 
-          // Since your JSON is a top-level array, loop directly
           if (!Array.isArray(data)) continue;
 
           for (const attack of data) {
+            // If attacker or defender is missing/null, show "someone"
+            const attackerName = attack.attacker?.name ?? 'someone';
+            const defenderName = attack.defender?.name ?? 'someone';
+            const result = attack.result || '';
+            const started = formatDate(attack.started);
+            const ended = formatDate(attack.ended);
+
             const row = document.createElement('tr');
             row.innerHTML = `
-              <td>${attack.attacker.name}</td>
-              <td>${attack.defender.name}</td>
-              <td>${attack.result}</td>
-              <td>${formatDate(attack.started)}</td>
-              <td>${formatDate(attack.ended)}</td>
+              <td>${attackerName}</td>
+              <td>${defenderName}</td>
+              <td>${result}</td>
+              <td>${started}</td>
+              <td>${ended}</td>
             `;
             tableBody.appendChild(row);
           }
