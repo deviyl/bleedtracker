@@ -39,3 +39,4 @@ jobs:
           else
             git commit -m "Update attacks JSON"
             git push origin HEAD:main
+          fi
