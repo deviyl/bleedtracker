@@ -11,10 +11,9 @@
     tr:nth-child(even) { background-color: #fafafa; }
     select, input[type="datetime-local"] { margin: 5px 10px 10px 0; padding: 5px; }
     .bleed { background-color: #ffcccc; }
+    .member-section { margin-top: 20px; }
+    summary { font-weight: bold; cursor: pointer; margin-bottom: 5px; }
     .member-summary { font-weight: bold; margin-top: 10px; }
-    .collapsible { background-color: #eee; cursor: pointer; padding: 10px; border: none; text-align: left; outline: none; font-size: 16px; width: 100%; }
-    .active, .collapsible:hover { background-color: #ccc; }
-    .content { display: none; overflow: hidden; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -36,27 +35,23 @@
 
   <p>
     Total Bleed (respect lost to selected faction): <span id="totalBleed">0</span><br>
-    Total Bleed Attacks: <span id="totalBleedAttacks">0</span><br>
-    Total Outgoing Attacks to Selected Faction: <span id="totalOutgoingAttacks">0</span><br>
-    Total Respect Gained from Selected Faction: <span id="totalRespectGained">0</span>
+    Total Bleed Attacks: <span id="totalBleedAttacks">0</span>
   </p>
 
-  <!-- Member summaries and collapsible sections -->
-  <div id="memberSections"></div>
+  <div id="memberBleedSummary"></div>
+  <div id="membersContainer"></div>
 
   <script>
-    const attacksDir = './attacks/';
+    const members = ['Deviyl','Caits']; // Keep this hardcoded for now
     const factionFilter = document.getElementById('factionFilter');
     const startDateInput = document.getElementById('startDate');
     const endDateInput = document.getElementById('endDate');
     const totalBleedSpan = document.getElementById('totalBleed');
     const totalBleedAttacksSpan = document.getElementById('totalBleedAttacks');
-    const totalOutgoingAttacksSpan = document.getElementById('totalOutgoingAttacks');
-    const totalRespectGainedSpan = document.getElementById('totalRespectGained');
-    const memberSectionsDiv = document.getElementById('memberSections');
+    const memberBleedSummary = document.getElementById('memberBleedSummary');
+    const membersContainer = document.getElementById('membersContainer');
 
-    let members = [];
-    let allAttacksByMember = {};
+    let allData = {}; // Will hold JSON per member
 
     function formatDate(unixTime) {
       if (!unixTime) return '';
@@ -79,110 +74,33 @@
       return Math.floor(d.getTime() / 1000);
     }
 
-    async function loadAllMembers() {
-      // Fetch the list of attack files
-      const response = await fetch(attacksDir);
-      if (!response.ok) {
-        console.error('Failed to list attacks directory');
-        return;
-      }
-
-      // This will be simulated since GitHub Pages doesn't allow directory listing
-      // We'll hardcode members based on known json files
-      members = ['Deviyl', 'Caits']; // If dynamic fetching is needed, use a server-side approach
+    async function loadAllData() {
       for (const member of members) {
         try {
-          const res = await fetch(`${attacksDir}${member}_attacks.json`);
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          const data = await res.json();
-          if (!Array.isArray(data)) continue;
-          allAttacksByMember[member] = data;
+          const response = await fetch(`./attacks/${member}_attacks.json`);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const data = await response.json();
+          allData[member] = Array.isArray(data) ? data : [];
         } catch (err) {
           console.error(`Failed to load attacks for ${member}:`, err);
+          allData[member] = [];
         }
       }
-      updateDisplay();
+      renderMembers();
+      updateBleed();
     }
 
-    function updateDisplay() {
-      const selectedFaction = factionFilter.value;
-      const startUnix = utcInputToUnix(startDateInput.value);
-      const endUnix = utcInputToUnix(endDateInput.value);
+    function renderMembers() {
+      membersContainer.innerHTML = '';
+      for (const member of members) {
+        const section = document.createElement('details');
+        section.className = 'member-section';
+        section.open = true;
 
-      let totalBleed = 0;
-      let totalBleedAttacks = 0;
-      let totalOutgoingAttacks = 0;
-      let totalRespectGained = 0;
+        const summary = document.createElement('summary');
+        summary.textContent = member;
+        section.appendChild(summary);
 
-      memberSectionsDiv.innerHTML = '';
-
-      members.forEach(member => {
-        const memberAttacks = allAttacksByMember[member] || [];
-        let memberBleed = 0;
-        let memberBleedCount = 0;
-        let memberOutgoingCount = 0;
-        let memberRespectGained = 0;
-
-        const filteredAttacks = memberAttacks.filter(attack => {
-          const attackerName = attack.attacker?.name ?? 'someone';
-          const defenderName = attack.defender?.name ?? 'someone';
-          const attackerFaction = attack.attacker?.faction?.name ?? 'none';
-          const defenderFaction = attack.defender?.faction?.name ?? 'none';
-          const respectLost = attack.respect_loss ?? 0;
-          const respectGained = attack.respect_gain ?? 0;
-          const started = attack.started ?? 0;
-          const ended = attack.ended ?? 0;
-
-          if (startUnix !== null && ended < startUnix) return false;
-          if (endUnix !== null && started > endUnix) return false;
-
-          // Determine enemy faction relative to member
-          let enemyFaction = 'none';
-          if (attackerName === member) {
-            enemyFaction = defenderFaction;
-          } else if (defenderName === member) {
-            enemyFaction = attackerFaction;
-          }
-
-          // Filter by selected faction
-          if (selectedFaction !== 'all' && enemyFaction !== selectedFaction) return false;
-
-          // Count bleed (defender taking damage from selected faction)
-          if (defenderName === member && attackerFaction === selectedFaction && respectLost > 0) {
-            memberBleed += respectLost;
-            memberBleedCount++;
-            totalBleed += respectLost;
-            totalBleedAttacks++;
-          }
-
-          // Count outgoing attacks (member attacking selected faction)
-          if (attackerName === member && defenderFaction === selectedFaction) {
-            memberOutgoingCount++;
-            memberRespectGained += respectGained;
-            totalOutgoingAttacks++;
-            totalRespectGained += respectGained;
-          }
-
-          attack.enemyFaction = enemyFaction;
-          attack.attackerName = attackerName;
-          attack.defenderName = defenderName;
-          attack.startedUTC = formatDate(started);
-          attack.endedUTC = formatDate(ended);
-          attack.isBleed = (defenderName === member && attackerFaction === selectedFaction && respectLost > 0);
-
-          return true;
-        });
-
-        if (filteredAttacks.length === 0) return;
-
-        // Member summary header
-        const collBtn = document.createElement('button');
-        collBtn.className = 'collapsible';
-        collBtn.textContent = `${member} - Bleed: ${memberBleed} (${memberBleedCount} attacks) | Outgoing: ${memberOutgoingCount} attacks, Respect Gained: ${memberRespectGained}`;
-        memberSectionsDiv.appendChild(collBtn);
-
-        const contentDiv = document.createElement('div');
-        contentDiv.className = 'content';
         const table = document.createElement('table');
         table.innerHTML = `
           <thead>
@@ -197,46 +115,104 @@
               <th>Ended (UTC)</th>
             </tr>
           </thead>
-          <tbody>
-            ${filteredAttacks.map(a => `
-              <tr class="${a.isBleed ? 'bleed' : ''}">
-                <td>${a.attackerName}</td>
-                <td>${a.defenderName}</td>
-                <td>${a.result ?? ''}</td>
-                <td>${a.respect_gain ?? 0}</td>
-                <td>${a.respect_loss ?? 0}</td>
-                <td>${a.enemyFaction}</td>
-                <td>${a.startedUTC}</td>
-                <td>${a.endedUTC}</td>
-              </tr>
-            `).join('')}
-          </tbody>
+          <tbody></tbody>
         `;
-        contentDiv.appendChild(table);
-        memberSectionsDiv.appendChild(contentDiv);
+        section.appendChild(table);
+        membersContainer.appendChild(section);
+      }
+    }
+
+    function updateBleed() {
+      const selectedFaction = factionFilter.value;
+      const startUnix = utcInputToUnix(startDateInput.value);
+      const endUnix = utcInputToUnix(endDateInput.value);
+
+      let totalBleed = 0;
+      let totalBleedAttacks = 0;
+
+      memberBleedSummary.innerHTML = '';
+
+      membersContainer.querySelectorAll('.member-section').forEach((section, i) => {
+        const member = members[i];
+        const tbody = section.querySelector('tbody');
+        tbody.innerHTML = '';
+
+        let memberBleed = 0;
+        let memberBleedCount = 0;
+        let memberOutgoing = 0;
+        let memberOutgoingCount = 0;
+
+        allData[member].forEach(attack => {
+          const attackerName = attack.attacker?.name ?? 'someone';
+          const defenderName = attack.defender?.name ?? 'someone';
+          const respectGained = attack.respect_gain ?? 0;
+          const respectLost = attack.respect_loss ?? 0;
+          const attackerFaction = attack.attacker?.faction?.name ?? 'none';
+          const defenderFaction = attack.defender?.faction?.name ?? 'none';
+          const startedUnix = attack.started ?? 0;
+          const endedUnix = attack.ended ?? 0;
+
+          // Time filter
+          if (startUnix && endedUnix < startUnix) return;
+          if (endUnix && startedUnix > endUnix) return;
+
+          let enemyFaction = 'none';
+          if (attackerName === member) enemyFaction = defenderFaction;
+          else if (defenderName === member) enemyFaction = attackerFaction;
+
+          // Faction filter
+          if (selectedFaction !== 'all' && enemyFaction !== selectedFaction) return;
+
+          // Append row
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${attackerName}</td>
+            <td>${defenderName}</td>
+            <td>${attack.result || ''}</td>
+            <td>${respectGained}</td>
+            <td>${respectLost}</td>
+            <td>${enemyFaction}</td>
+            <td>${formatDate(startedUnix)}</td>
+            <td>${formatDate(endedUnix)}</td>
+          `;
+
+          // Check bleed (incoming)
+          if (defenderName === member && attackerFaction === selectedFaction && respectLost > 0) {
+            row.classList.add('bleed');
+            totalBleed += respectLost;
+            totalBleedAttacks++;
+            memberBleed += respectLost;
+            memberBleedCount++;
+          }
+
+          // Outgoing totals
+          if (attackerName === member && defenderFaction === selectedFaction) {
+            memberOutgoing += respectGained;
+            memberOutgoingCount++;
+          }
+
+          tbody.appendChild(row);
+        });
+
+        // Show only if there’s any bleed or outgoing? (optional)
+        section.style.display = tbody.children.length > 0 ? '' : 'none';
+
+        // Member summary
+        const div = document.createElement('div');
+        div.className = 'member-summary';
+        div.textContent = `${member}: ${memberBleed} bleed (${memberBleedCount} attacks) | Outgoing: ${memberOutgoing} respect (${memberOutgoingCount} attacks)`;
+        memberBleedSummary.appendChild(div);
       });
 
       totalBleedSpan.textContent = totalBleed;
       totalBleedAttacksSpan.textContent = totalBleedAttacks;
-      totalOutgoingAttacksSpan.textContent = totalOutgoingAttacks;
-      totalRespectGainedSpan.textContent = totalRespectGained;
-
-      // Setup collapsibles
-      const coll = document.getElementsByClassName('collapsible');
-      for (let i = 0; i < coll.length; i++) {
-        coll[i].onclick = function() {
-          this.classList.toggle('active');
-          const content = this.nextElementSibling;
-          content.style.display = content.style.display === 'block' ? 'none' : 'block';
-        };
-      }
     }
 
-    factionFilter.addEventListener('change', updateDisplay);
-    startDateInput.addEventListener('change', updateDisplay);
-    endDateInput.addEventListener('change', updateDisplay);
+    factionFilter.addEventListener('change', updateBleed);
+    startDateInput.addEventListener('change', updateBleed);
+    endDateInput.addEventListener('change', updateBleed);
 
-    loadAllMembers();
+    loadAllData();
   </script>
 </body>
 </html>
