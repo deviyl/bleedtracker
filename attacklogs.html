@@ -9,7 +9,7 @@
     th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
     th { background-color: #f2f2f2; }
     tr:nth-child(even) { background-color: #fafafa; }
-    select { margin-bottom: 10px; padding: 5px; }
+    select, input[type="datetime-local"] { margin: 5px 10px 10px 0; padding: 5px; }
     .bleed { background-color: #ffcccc; } /* highlight bleed attacks */
     .member-bleed { margin-top: 10px; font-weight: bold; }
   </style>
@@ -17,13 +17,19 @@
 <body>
   <h1>Faction Attack Logs</h1>
 
-  <!-- Faction filter dropdown -->
+  <!-- Filters -->
   <label for="factionFilter">Filter by Enemy Faction:</label>
   <select id="factionFilter">
     <option value="all">All</option>
     <option value="IRON FORGE HQ">IRON FORGE HQ</option>
     <option value="Mana">Mana</option>
   </select>
+
+  <label for="startDate">Start Date/Time:</label>
+  <input type="datetime-local" id="startDate">
+
+  <label for="endDate">End Date/Time:</label>
+  <input type="datetime-local" id="endDate">
 
   <p>Total Bleed (respect lost to selected faction): <span id="totalBleed">0</span></p>
 
@@ -52,6 +58,8 @@
     const members = ['Deviyl', 'Caits']; // Add more members here
     const tableBody = document.querySelector('#attacksTable tbody');
     const factionFilter = document.getElementById('factionFilter');
+    const startDateInput = document.getElementById('startDate');
+    const endDateInput = document.getElementById('endDate');
     const totalBleedSpan = document.getElementById('totalBleed');
     const memberBleedSummary = document.getElementById('memberBleedSummary');
     let allRows = [];
@@ -93,6 +101,7 @@
             row.dataset.defender = defenderName;
             row.dataset.respectLost = respectLost;
             row.dataset.enemyFaction = enemyFaction;
+            row.dataset.startedUnix = attack.started ?? 0;
 
             row.innerHTML = `
               <td>${attackerName}</td>
@@ -120,23 +129,27 @@
       const selectedFaction = factionFilter.value;
       let totalBleed = 0;
       const perMemberBleed = {};
-
       members.forEach(m => perMemberBleed[m] = 0);
 
+      const startUnix = startDateInput.value ? new Date(startDateInput.value).getTime() / 1000 : null;
+      const endUnix = endDateInput.value ? new Date(endDateInput.value).getTime() / 1000 : null;
+
       allRows.forEach(row => {
-        // Show/hide rows based on selected faction
-        if (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction) {
-          row.style.display = '';
-        } else {
-          row.style.display = 'none';
-        }
+        let showRow = (selectedFaction === 'all' || row.dataset.enemyFaction === selectedFaction);
+
+        // Apply date filters
+        const attackStartTime = Number(row.dataset.startedUnix);
+        if (startUnix !== null && attackStartTime < startUnix) showRow = false;
+        if (endUnix !== null && attackStartTime > endUnix) showRow = false;
+
+        row.style.display = showRow ? '' : 'none';
 
         // Bleed calculation
         const isDefenderMember = members.includes(row.dataset.defender);
         const isAttackerFromSelectedFaction = row.dataset.attackerFaction === selectedFaction;
         const respectLost = Number(row.dataset.respectLost);
 
-        if (row.style.display !== 'none' && isDefenderMember && isAttackerFromSelectedFaction && respectLost > 0) {
+        if (showRow && isDefenderMember && isAttackerFromSelectedFaction && respectLost > 0) {
           row.classList.add('bleed');
           totalBleed += respectLost;
           perMemberBleed[row.dataset.defender] += respectLost;
@@ -158,6 +171,8 @@
     }
 
     factionFilter.addEventListener('change', updateBleed);
+    startDateInput.addEventListener('change', updateBleed);
+    endDateInput.addEventListener('change', updateBleed);
 
     loadAttacks();
   </script>
