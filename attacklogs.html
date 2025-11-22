@@ -11,6 +11,7 @@
     tr:nth-child(even) { background-color: #fafafa; }
     select { margin-bottom: 10px; padding: 5px; }
     .bleed { background-color: #ffcccc; } /* highlight bleed attacks */
+    .member-bleed { margin-top: 10px; font-weight: bold; }
   </style>
 </head>
 <body>
@@ -25,6 +26,9 @@
   </select>
 
   <p>Total Bleed (respect lost to selected faction): <span id="totalBleed">0</span></p>
+
+  <!-- Member bleed summaries -->
+  <div id="memberBleedSummary"></div>
 
   <table id="attacksTable">
     <thead>
@@ -45,10 +49,11 @@
   </table>
 
   <script>
-    const members = ['Deviyl', 'Caits']; // Add more faction members here
+    const members = ['Deviyl', 'Caits']; // Add more members here
     const tableBody = document.querySelector('#attacksTable tbody');
     const factionFilter = document.getElementById('factionFilter');
     const totalBleedSpan = document.getElementById('totalBleed');
+    const memberBleedSummary = document.getElementById('memberBleedSummary');
     let allRows = [];
 
     function formatDate(unixTime) {
@@ -70,8 +75,8 @@
             const defenderName = attack.defender?.name ?? 'someone';
             const respectGained = attack.respect_gain ?? 0;
             const respectLost = attack.respect_loss ?? 0;
-
             const attackerFaction = attack.attacker?.faction?.name ?? 'none';
+
             let enemyFaction = 'none';
             if (attack.attacker?.name === member) {
               enemyFaction = attack.defender?.faction?.name ?? 'none';
@@ -114,6 +119,9 @@
     function updateBleed() {
       const selectedFaction = factionFilter.value;
       let totalBleed = 0;
+      const perMemberBleed = {};
+
+      members.forEach(m => perMemberBleed[m] = 0);
 
       allRows.forEach(row => {
         // Show/hide rows based on selected faction
@@ -123,10 +131,7 @@
           row.style.display = 'none';
         }
 
-        // Highlight bleed:
-        // - Defender is a member
-        // - Attacker is from selected faction
-        // - Respect lost > 0
+        // Bleed calculation
         const isDefenderMember = members.includes(row.dataset.defender);
         const isAttackerFromSelectedFaction = row.dataset.attackerFaction === selectedFaction;
         const respectLost = Number(row.dataset.respectLost);
@@ -134,12 +139,22 @@
         if (row.style.display !== 'none' && isDefenderMember && isAttackerFromSelectedFaction && respectLost > 0) {
           row.classList.add('bleed');
           totalBleed += respectLost;
+          perMemberBleed[row.dataset.defender] += respectLost;
         } else {
           row.classList.remove('bleed');
         }
       });
 
       totalBleedSpan.textContent = totalBleed;
+
+      // Update per-member bleed summary
+      memberBleedSummary.innerHTML = '';
+      members.forEach(member => {
+        const div = document.createElement('div');
+        div.className = 'member-bleed';
+        div.textContent = `${member}: ${perMemberBleed[member]} bleed`;
+        memberBleedSummary.appendChild(div);
+      });
     }
 
     factionFilter.addEventListener('change', updateBleed);
