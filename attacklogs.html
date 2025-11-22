@@ -19,6 +19,9 @@
         <th>Attacker</th>
         <th>Defender</th>
         <th>Result</th>
+        <th>Respect Gained</th>
+        <th>Respect Lost</th>
+        <th>Enemy Faction</th>
         <th>Started</th>
         <th>Ended</th>
       </tr>
@@ -48,9 +51,23 @@
           if (!Array.isArray(data)) continue;
 
           for (const attack of data) {
-            // If attacker or defender is missing/null, show "someone"
+            // Attacker / Defender
             const attackerName = attack.attacker?.name ?? 'someone';
             const defenderName = attack.defender?.name ?? 'someone';
+
+            // Respect
+            const respectGained = attack.respect_gain ?? 0;
+            const respectLost = attack.respect_loss ?? 0;
+
+            // Enemy faction (we’ll consider the faction of the enemy, i.e., the member’s opponent)
+            // If attacker is the member, enemy is defender; if defender is the member, enemy is attacker
+            let enemyFaction = 'none';
+            if (attack.attacker?.name === member) {
+              enemyFaction = attack.defender?.faction?.name ?? 'none';
+            } else if (attack.defender?.name === member) {
+              enemyFaction = attack.attacker?.faction?.name ?? 'none';
+            }
+
             const result = attack.result || '';
             const started = formatDate(attack.started);
             const ended = formatDate(attack.ended);
@@ -60,6 +77,9 @@
               <td>${attackerName}</td>
               <td>${defenderName}</td>
               <td>${result}</td>
+              <td>${respectGained}</td>
+              <td>${respectLost}</td>
+              <td>${enemyFaction}</td>
               <td>${started}</td>
               <td>${ended}</td>
             `;
