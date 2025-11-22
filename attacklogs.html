@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faction Attack Logs</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    tr:nth-child(even) { background-color: #fafafa; }
+  </style>
+</head>
+<body>
+  <h1>Faction Attack Logs</h1>
+  <table id="attacksTable">
+    <thead>
+      <tr>
+        <th>Attacker</th>
+        <th>Defender</th>
+        <th>Result</th>
+        <th>Started</th>
+        <th>Ended</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Attack rows will go here -->
+    </tbody>
+  </table>
+
+  <script>
+    const members = ['Deviyl', 'Caits']; // add more member names here
+    const tableBody = document.querySelector('#attacksTable tbody');
+
+    function formatDate(unixTime) {
+      const d = new Date(unixTime * 1000);
+      return d.toLocaleString();
+    }
+
+    async function loadAttacks() {
+      for (const member of members) {
+        const response = await fetch(`attacks/${member}_attacks.json`);
+        const data = await response.json();
+
+        if (!data.attacks) continue;
+
+        for (const attack of data.attacks) {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${attack.attacker.name}</td>
+            <td>${attack.defender.name}</td>
+            <td>${attack.result}</td>
+            <td>${formatDate(attack.started)}</td>
+            <td>${formatDate(attack.ended)}</td>
+          `;
+          tableBody.appendChild(row);
+        }
+      }
+    }
+
+    loadAttacks();
+  </script>
+</body>
+</html>
