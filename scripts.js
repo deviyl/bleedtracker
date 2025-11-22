@@ -168,4 +168,4 @@ factionFilter.addEventListener('change', updateBleed);
 startDateInput.addEventListener('change', updateBleed);
 endDateInput.addEventListener('change', updateBleed);
 
-    loadAllData();
+loadAllData();
