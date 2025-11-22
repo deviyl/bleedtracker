@@ -150,16 +150,13 @@ function updateBleed() {
       tbody.appendChild(row);
     });
 
-    // Show only if there’s any attack in the table
+    // Show only if there’s any bleed or outgoing? (optional)
     section.style.display = tbody.children.length > 0 ? '' : 'none';
 
-    // Member summary with Torn-themed classes
+    // Member summary
     const div = document.createElement('div');
     div.className = 'member-summary';
-    div.innerHTML = `
-      <span class="bleed-total">${memberBleed} bleed (${memberBleedCount} attacks)</span>
-      <span class="outgoing-total">Outgoing: ${memberOutgoing} respect (${memberOutgoingCount} attacks)</span>
-    `;
+    div.textContent = `${member}: ${memberBleed} bleed (${memberBleedCount} attacks) | Outgoing: ${memberOutgoing} respect (${memberOutgoingCount} attacks)`;
     memberBleedSummary.appendChild(div);
   });
 
