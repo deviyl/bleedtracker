@@ -1,5 +1,47 @@
 [
   {
+    "id": 429186213,
+    "code": "88a40a2e4322ac21afce502d57917f43",
+    "started": 1763901190,
+    "ended": 1763901207,
+    "attacker": {
+      "id": 3591356,
+      "name": "Kayborg",
+      "level": 44,
+      "faction": {
+        "id": 38547,
+        "name": "Unbroken Nixies"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.15,
+    "respect_loss": 0.79,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429168202,
     "code": "b85fbf575a494e27ffd056b6dae7e4b0",
     "started": 1763896182,
