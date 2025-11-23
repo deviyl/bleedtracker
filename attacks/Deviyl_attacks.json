@@ -1,5 +1,47 @@
 [
   {
+    "id": 429280642,
+    "code": "857b40127f0191624cfdfc9cecc58ccf",
+    "started": 1763926306,
+    "ended": 1763926309,
+    "attacker": {
+      "id": 3333233,
+      "name": "Gottasleeplate",
+      "level": 46,
+      "faction": {
+        "id": 38662,
+        "name": "OTF Headquarters"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.28,
+    "respect_loss": 0.32,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.52,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429186213,
     "code": "88a40a2e4322ac21afce502d57917f43",
     "started": 1763901190,
