@@ -1,5 +1,94 @@
 [
   {
+    "id": 429065752,
+    "code": "39d14377240f8d35933fa371c6b7373d",
+    "started": 1763871421,
+    "ended": 1763871423,
+    "attacker": {
+      "id": 2493597,
+      "name": "Foxclay",
+      "level": 79,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.66,
+    "respect_loss": 0.92,
+    "chain": 184,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.32,
+      "warlord": 1.19
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 19
+      }
+    ]
+  },
+  {
+    "id": 429065671,
+    "code": "d6170bee3fdda4a5e0564f14236ae031",
+    "started": 1763871410,
+    "ended": 1763871417,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3909191,
+      "name": "MageWolf",
+      "level": 27,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.51,
+    "respect_loss": 1.38,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.44,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429051921,
     "code": "8fbdbf10f468106efa92d6b4cd89a70a",
     "started": 1763868671,
