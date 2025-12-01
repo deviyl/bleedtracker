@@ -1,5 +1,44 @@
 [
   {
+    "id": 430928079,
+    "code": "b78ed646458242ef50620950200d1e00",
+    "started": 1764622518,
+    "ended": 1764622521,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3768369,
+      "name": "-LordGrim",
+      "level": 12,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.94,
+    "respect_loss": 0.49,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430882716,
     "code": "1d64fda70c042dff261de8699874ad9b",
     "started": 1764595192,
