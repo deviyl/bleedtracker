@@ -1,5 +1,47 @@
 [
   {
+    "id": 430850628,
+    "code": "6ac850e8621fa1b4d05b2e417c5d2cca",
+    "started": 1764575406,
+    "ended": 1764575412,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3710541,
+      "name": "Ozchris",
+      "level": 37,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430849316,
     "code": "f6a2a0b849e209b41cce8838d03c76c5",
     "started": 1764574656,
