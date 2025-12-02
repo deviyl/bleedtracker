@@ -1,5 +1,47 @@
 [
   {
+    "id": 431068951,
+    "code": "fb4bf3e9c7a9dce1e3503333184e1745",
+    "started": 1764718746,
+    "ended": 1764718748,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2807954,
+      "name": "Dsla",
+      "level": 15,
+      "faction": {
+        "id": 44865,
+        "name": "Violent Resolution"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431006819,
     "code": "7d4a7a8dff2c39cbb76e3dd659a41bfa",
     "started": 1764672251,
