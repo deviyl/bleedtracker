@@ -1,5 +1,44 @@
 [
   {
+    "id": 431006819,
+    "code": "7d4a7a8dff2c39cbb76e3dd659a41bfa",
+    "started": 1764672251,
+    "ended": 1764672257,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3391599,
+      "name": "-El_Pato-",
+      "level": 15,
+      "faction": null
+    },
+    "result": "Special",
+    "respect_gain": 1.8,
+    "respect_loss": 0.45,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.68,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431006688,
     "code": "73dd19d58288359fc582b8419e817849",
     "started": 1764672150,
