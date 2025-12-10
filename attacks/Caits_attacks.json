@@ -1,5 +1,44 @@
 [
   {
+    "id": 432913088,
+    "code": "5146c0683f46f62888e622435310fb81",
+    "started": 1765410696,
+    "ended": 1765410699,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2857316,
+      "name": "DUBB1231",
+      "level": 8,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.12,
+    "respect_loss": 0.78,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432910723,
     "code": "03b619fea690983245c88ebec8e2bfcc",
     "started": 1765410295,
