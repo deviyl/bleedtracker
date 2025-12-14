@@ -1,5 +1,44 @@
 [
   {
+    "id": 434420691,
+    "code": "42d6126ab57503b718dcfc961ab4bd9a",
+    "started": 1765689555,
+    "ended": 1765689567,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 186481,
+      "name": "spiderman-3",
+      "level": 25,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.36,
+    "respect_loss": 0.84,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434412436,
     "code": "6fb3692bbdb3bffbc1935b67faae0647",
     "started": 1765687508,
