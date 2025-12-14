@@ -1,5 +1,47 @@
 [
   {
+    "id": 434603836,
+    "code": "d6b702cfa27127fa1fef6778d11e37fc",
+    "started": 1765734654,
+    "ended": 1765734658,
+    "attacker": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 32,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434359245,
     "code": "90586e59b1108244be05b5723fd5979c",
     "started": 1765676216,
