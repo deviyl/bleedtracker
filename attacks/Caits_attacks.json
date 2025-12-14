@@ -1,5 +1,44 @@
 [
   {
+    "id": 434427704,
+    "code": "29ae78c31bad8067eca950197c8b50cc",
+    "started": 1765691171,
+    "ended": 1765691189,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2217501,
+      "name": "DewGamer",
+      "level": 22,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.33,
+    "respect_loss": 0.83,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434420691,
     "code": "42d6126ab57503b718dcfc961ab4bd9a",
     "started": 1765689555,
