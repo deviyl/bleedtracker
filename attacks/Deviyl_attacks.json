@@ -1,5 +1,44 @@
 [
   {
+    "id": 434332667,
+    "code": "1ec730ed721a2025ca5c789bdfc4ad3f",
+    "started": 1765671503,
+    "ended": 1765671523,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2349644,
+      "name": "GoatMilk",
+      "level": 30,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.13,
+    "respect_loss": 0.78,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.72,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433995700,
     "code": "a0fcc7d59b3ce810b9ca6854015df4d3",
     "started": 1765605955,
