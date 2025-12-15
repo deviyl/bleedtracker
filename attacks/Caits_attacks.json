@@ -1,5 +1,47 @@
 [
   {
+    "id": 434788205,
+    "code": "cc6f8f6080a190a318c71bb3a839cd3e",
+    "started": 1765783341,
+    "ended": 1765783364,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2247404,
+      "name": "ReaperLokz916",
+      "level": 12,
+      "faction": {
+        "id": 43869,
+        "name": "HackersFaction"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434758190,
     "code": "09f46821ff586d52cd9cd712c3628d17",
     "started": 1765773558,
