@@ -1,5 +1,167 @@
 [
   {
+    "id": 434758190,
+    "code": "09f46821ff586d52cd9cd712c3628d17",
+    "started": 1765773558,
+    "ended": 1765773570,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 855798,
+      "name": "Tyrius",
+      "level": 24,
+      "faction": null
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.36,
+    "respect_loss": 0.84,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434758061,
+    "code": "fd18bc25e1f21b951ea0b32516ee6f06",
+    "started": 1765773520,
+    "ended": 1765773541,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3379146,
+      "name": "Saribert",
+      "level": 20,
+      "faction": null
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.3,
+    "respect_loss": 0.82,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434757882,
+    "code": "692b144e8b8c4f51c6b4a831db46411d",
+    "started": 1765773462,
+    "ended": 1765773484,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2389174,
+      "name": "Searin117",
+      "level": 22,
+      "faction": {
+        "id": 49182,
+        "name": "The community"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.33,
+    "respect_loss": 0.83,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434757688,
+    "code": "696bed8f09ae2c43751f6384a6fff670",
+    "started": 1765773406,
+    "ended": 1765773431,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2247404,
+      "name": "ReaperLokz916",
+      "level": 12,
+      "faction": {
+        "id": 43869,
+        "name": "HackersFaction"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434658388,
     "code": "05e0a9f1e50db849d2ec2c33fdc229ae",
     "started": 1765747278,
