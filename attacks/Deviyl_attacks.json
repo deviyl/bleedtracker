@@ -1,5 +1,52 @@
 [
   {
+    "id": 435405453,
+    "code": "1b0514741e71ec51c0e0e6a9fb5925c0",
+    "started": 1766084827,
+    "ended": 1766084839,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 431849,
+      "name": "DEATHGRIP",
+      "level": 36,
+      "faction": {
+        "id": 44730,
+        "name": "THA ORIGINALS"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.11,
+    "respect_loss": 0.78,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
     "id": 435389329,
     "code": "8b81d58520ca0932161a7bdf539a20a8",
     "started": 1766077740,
