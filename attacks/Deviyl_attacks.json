@@ -1,5 +1,44 @@
 [
   {
+    "id": 435385467,
+    "code": "bbeeb33d59794e56ffc834413a0a067b",
+    "started": 1766076002,
+    "ended": 1766076086,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1964241,
+      "name": "zelot",
+      "level": 35,
+      "faction": null
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435357497,
     "code": "cfd5057bf76ec6e08c738497d652b772",
     "started": 1766065605,
