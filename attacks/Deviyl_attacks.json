@@ -1,5 +1,44 @@
 [
   {
+    "id": 435352143,
+    "code": "76287563b1648bc98046f817e1a6a492",
+    "started": 1766062326,
+    "ended": 1766062332,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 76178,
+      "name": "flocka420",
+      "level": 36,
+      "faction": null
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435348688,
     "code": "315d136795c8d9b8974d02f1bdb858e4",
     "started": 1766059602,
