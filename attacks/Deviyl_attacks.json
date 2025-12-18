@@ -1,5 +1,88 @@
 [
   {
+    "id": 435389329,
+    "code": "8b81d58520ca0932161a7bdf539a20a8",
+    "started": 1766077740,
+    "ended": 1766077747,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1964241,
+      "name": "zelot",
+      "level": 35,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 3.08,
+    "respect_loss": 0.77,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 435389108,
+    "code": "6525ab9ea3cbd6f19570d9ab10635a89",
+    "started": 1766077653,
+    "ended": 1766077695,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1964241,
+      "name": "zelot",
+      "level": 35,
+      "faction": null
+    },
+    "result": "Stalemate",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435385467,
     "code": "bbeeb33d59794e56ffc834413a0a067b",
     "started": 1766076002,
