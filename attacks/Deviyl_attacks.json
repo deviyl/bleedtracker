@@ -1,5 +1,122 @@
 [
   {
+    "id": 436003780,
+    "code": "0ceb943a7ad1aafa007241307256b854",
+    "started": 1766374516,
+    "ended": 1766374518,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2622532,
+      "name": "-6969-",
+      "level": 10,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.13,
+    "respect_loss": 0.28,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.08,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436000996,
+    "code": "e1c6d4e1a7b9e309970a6a0f987e022d",
+    "started": 1766372886,
+    "ended": 1766372888,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2622532,
+      "name": "-6969-",
+      "level": 10,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.13,
+    "respect_loss": 0.28,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.08,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435998973,
+    "code": "ceb9a05b8feb67bd893cb885c3a1154e",
+    "started": 1766371609,
+    "ended": 1766371613,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2622532,
+      "name": "-6969-",
+      "level": 10,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.13,
+    "respect_loss": 0.28,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.08,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435668218,
     "code": "7f16fd0dd8e65a73ce94dd8af46bee50",
     "started": 1766210591,
