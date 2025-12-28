@@ -1,5 +1,44 @@
 [
   {
+    "id": 436859530,
+    "code": "6b73eb581dddfc9fdfd8f6665ef877af",
+    "started": 1766937463,
+    "ended": 1766937513,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 768841,
+      "name": "Jarmor",
+      "level": 34,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 2.63,
+    "respect_loss": 0.66,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436734636,
     "code": "2f7433b01832b560ffffb5fe800b76b7",
     "started": 1766873624,
