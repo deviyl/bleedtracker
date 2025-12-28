@@ -1,5 +1,136 @@
 [
   {
+    "id": 436873015,
+    "code": "fe3c833e38a7e2c3546dbf90e2a9796f",
+    "started": 1766944184,
+    "ended": 1766944209,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1780770,
+      "name": "DootyMancer",
+      "level": 29,
+      "faction": {
+        "id": 41495,
+        "name": "Candy Cane Co."
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.42,
+    "respect_loss": 0.86,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436872881,
+    "code": "497235113f3ff47944d2c2878546fadd",
+    "started": 1766944093,
+    "ended": 1766944104,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2255476,
+      "name": "KittyManson",
+      "level": 23,
+      "faction": {
+        "id": 41495,
+        "name": "Candy Cane Co."
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.9,
+    "respect_loss": 0.98,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 436872743,
+    "code": "d4fa3dfce66ff1cf9315286819397ec9",
+    "started": 1766944021,
+    "ended": 1766944056,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2255476,
+      "name": "KittyManson",
+      "level": 23,
+      "faction": {
+        "id": 41495,
+        "name": "Candy Cane Co."
+      }
+    },
+    "result": "Stalemate",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436859530,
     "code": "6b73eb581dddfc9fdfd8f6665ef877af",
     "started": 1766937463,
