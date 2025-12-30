@@ -1,5 +1,83 @@
 [
   {
+    "id": 437114853,
+    "code": "6d1b46bdd2e2480110e57ffbe579c5f0",
+    "started": 1767100850,
+    "ended": 1767100861,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 454775,
+      "name": "tugboat",
+      "level": 40,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.6,
+    "respect_loss": 0.9,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 437114787,
+    "code": "86bcfb3de73f51d2d481fd7ed55a4445",
+    "started": 1767100805,
+    "ended": 1767100818,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 454775,
+      "name": "tugboat",
+      "level": 40,
+      "faction": null
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437050747,
     "code": "d3c216610d2011fc67bf67fe4a16b5a6",
     "started": 1767053642,
