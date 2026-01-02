@@ -1,5 +1,122 @@
 [
   {
+    "id": 437476297,
+    "code": "069d03673b7d93e0d306ffb857034b07",
+    "started": 1767326591,
+    "ended": 1767326599,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2083954,
+      "name": "DaSandwichMan",
+      "level": 32,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.48,
+    "respect_loss": 0.87,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 437476236,
+    "code": "c7aa45dd305eb015c3a4aac9eb6963ec",
+    "started": 1767326560,
+    "ended": 1767326574,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2083954,
+      "name": "DaSandwichMan",
+      "level": 32,
+      "faction": null
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 437476162,
+    "code": "a96fd7b0d48477a60c575c4efdb3a1e6",
+    "started": 1767326525,
+    "ended": 1767326544,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2083954,
+      "name": "DaSandwichMan",
+      "level": 32,
+      "faction": null
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437174934,
     "code": "4497ffa06f5c5d4da498f32cada04d1b",
     "started": 1767143156,
