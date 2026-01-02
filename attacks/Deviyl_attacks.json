@@ -1,5 +1,52 @@
 [
   {
+    "id": 437645074,
+    "code": "24128841af9fb9cb2a047eed1727e456",
+    "started": 1767392680,
+    "ended": 1767392685,
+    "attacker": {
+      "id": 2779926,
+      "name": "Titto1337",
+      "level": 32,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 11.89,
+    "respect_loss": 2.97,
+    "chain": 1031,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
     "id": 437640275,
     "code": "5e610d014d447bd017e7555f8e6accd3",
     "started": 1767391355,
