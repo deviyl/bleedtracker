@@ -1,5 +1,99 @@
 [
   {
+    "id": 437701830,
+    "code": "c0c3930baee04203f8c7238e2d592c25",
+    "started": 1767409988,
+    "ended": 1767409992,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 4018628,
+      "name": "thomas77x",
+      "level": 17,
+      "faction": {
+        "id": 53857,
+        "name": "Stocks & Bongs"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.34,
+    "respect_loss": 0.34,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.41,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 437699810,
+    "code": "5c9071f616f7366c4d57c55e619fd33e",
+    "started": 1767409241,
+    "ended": 1767409247,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3892111,
+      "name": "BonnieB649",
+      "level": 19,
+      "faction": {
+        "id": 48822,
+        "name": "Diamond Cartel."
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.78,
+    "respect_loss": 0.44,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.86,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
     "id": 437680184,
     "code": "ff1b482d7ac528accbec8db2332aa233",
     "started": 1767402903,
