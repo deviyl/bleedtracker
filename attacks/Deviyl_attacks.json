@@ -1,5 +1,44 @@
 [
   {
+    "id": 439001148,
+    "code": "3077eca9ddbaaca084d5b0ecbf51cb8a",
+    "started": 1767990838,
+    "ended": 1767990901,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2282125,
+      "name": "Acedestro",
+      "level": 33,
+      "faction": null
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438998825,
     "code": "7cfcd4ac8dbd311fff93b649341e276f",
     "started": 1767990433,
