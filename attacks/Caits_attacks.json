@@ -1,5 +1,81 @@
 [
   {
+    "id": 439135991,
+    "code": "5b4066773c637a2d6ad5d85366b191e3",
+    "started": 1768017341,
+    "ended": 1768017347,
+    "attacker": {
+      "id": 2736303,
+      "name": "Challenger_69",
+      "level": 54,
+      "faction": {
+        "id": 41620,
+        "name": "Wargasm Revival Medicare"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.49,
+    "respect_loss": 1.37,
+    "chain": 680,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.68,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439129340,
+    "code": "f341924e0b03036a806290775643f4e3",
+    "started": 1768015636,
+    "ended": 1768015640,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.49,
+    "respect_loss": 1.37,
+    "chain": 657,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.69,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.45,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 439123321,
     "code": "a201601dcfbbdc1f0b462ecf2502419c",
     "started": 1768014235,
