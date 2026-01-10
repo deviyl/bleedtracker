@@ -1,5 +1,49 @@
 [
   {
+    "id": 439163496,
+    "code": "af62c558542d38ae41b0f64d308a0880",
+    "started": 1768025102,
+    "ended": 1768025108,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2764639,
+      "name": "-Hades-",
+      "level": 18,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.9,
+    "respect_loss": 0.47,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.49,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
     "id": 439157279,
     "code": "2aa77c1f3fe0fede38467254395ba9c1",
     "started": 1768023338,
