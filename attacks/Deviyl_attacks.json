@@ -1,5 +1,230 @@
 [
   {
+    "id": 440412947,
+    "code": "e8f8679c5b9738fbcde525b6a7c09e7a",
+    "started": 1768517348,
+    "ended": 1768517350,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3857473,
+      "name": "Hikle",
+      "level": 35,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 440411005,
+    "code": "ab93eccba82519b902c52d53b3dacf29",
+    "started": 1768516888,
+    "ended": 1768516891,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 4031754,
+      "name": "Hodenei",
+      "level": 16,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.66,
+    "respect_loss": 0.92,
+    "chain": 136,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.13,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.28,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 440410378,
+    "code": "ade1d0cba16ef2065baeefece299c152",
+    "started": 1768516726,
+    "ended": 1768516729,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3801461,
+      "name": "Donaldberger236",
+      "level": 17,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.59,
+    "respect_loss": 1.15,
+    "chain": 133,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.42,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.28,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 440409655,
+    "code": "33a979256569f0898366657e3cb36083",
+    "started": 1768516548,
+    "ended": 1768516551,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3998909,
+      "name": "disappearingboi",
+      "level": 13,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.56,
+    "respect_loss": 0.89,
+    "chain": 132,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.12,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.28,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 440408818,
+    "code": "04677ddbf5f5a56066c392da17d5a355",
+    "started": 1768516350,
+    "ended": 1768516351,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3857473,
+      "name": "Hikle",
+      "level": 35,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 440331595,
     "code": "716c1ccab0ad5f2998eb03ddfe267a89",
     "started": 1768494514,
