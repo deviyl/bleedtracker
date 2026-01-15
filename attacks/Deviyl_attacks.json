@@ -1,5 +1,193 @@
 [
   {
+    "id": 440418109,
+    "code": "84041a9177e26fef5f6662b916aa477c",
+    "started": 1768518345,
+    "ended": 1768518350,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3857473,
+      "name": "Hikle",
+      "level": 35,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 10.17,
+    "respect_loss": 2.54,
+    "chain": 151,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.88,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.29,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 440418035,
+    "code": "64987a1d4abcca71dba5f90ec27dcf8f",
+    "started": 1768518328,
+    "ended": 1768518330,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 4031754,
+      "name": "Hodenei",
+      "level": 16,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.68,
+    "respect_loss": 0.92,
+    "chain": 150,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.13,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.29,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 440413880,
+    "code": "03f240f054581185402ab0f52ab94936",
+    "started": 1768517555,
+    "ended": 1768517557,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3890055,
+      "name": "Daddychill18",
+      "level": 17,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.69,
+    "respect_loss": 1.17,
+    "chain": 143,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.44,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.29,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 440413684,
+    "code": "28b1d4896bfaedba8d1915dfac1d3e20",
+    "started": 1768517516,
+    "ended": 1768517519,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2910401,
+      "name": "francodale",
+      "level": 28,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.7,
+    "respect_loss": 1.92,
+    "chain": 142,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.79,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1.29,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
     "id": 440412947,
     "code": "e8f8679c5b9738fbcde525b6a7c09e7a",
     "started": 1768517348,
