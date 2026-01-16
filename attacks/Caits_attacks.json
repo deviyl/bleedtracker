@@ -1,5 +1,47 @@
 [
   {
+    "id": 440697015,
+    "code": "3f33b820cbbc88ffd345d1f78a0dbe40",
+    "started": 1768601277,
+    "ended": 1768601280,
+    "attacker": {
+      "id": 3031406,
+      "name": "DarthKILLAH",
+      "level": 70,
+      "faction": {
+        "id": 46708,
+        "name": "The Revenant"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.19,
+    "respect_loss": 0.3,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 440631039,
     "code": "6daba53c941ea69d3fe6e552a960ad71",
     "started": 1768588943,
