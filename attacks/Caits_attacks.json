@@ -1,5 +1,89 @@
 [
   {
+    "id": 440522199,
+    "code": "d67e54d8aaaedd465a4f4867a6745eaf",
+    "started": 1768554214,
+    "ended": 1768554217,
+    "attacker": {
+      "id": 2810261,
+      "name": "HtwoO",
+      "level": 96,
+      "faction": {
+        "id": 33458,
+        "name": "SA House of Mischief"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.86,
+    "respect_loss": 0.47,
+    "chain": 3458,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.63,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 440522201,
+    "code": "b42496483475f8e50135ca3c41546e4c",
+    "started": 1768554214,
+    "ended": 1768554215,
+    "attacker": {
+      "id": 2884437,
+      "name": "DeathBySexy2",
+      "level": 98,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 440498636,
     "code": "70b3eff77261571f18ff77d7ff3642d6",
     "started": 1768543052,
