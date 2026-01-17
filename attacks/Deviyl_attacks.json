@@ -1,5 +1,52 @@
 [
   {
+    "id": 440814887,
+    "code": "315e8a1352eb59ad420b989bbc582972",
+    "started": 1768629026,
+    "ended": 1768629029,
+    "attacker": {
+      "id": 2515711,
+      "name": "NgaiNgai",
+      "level": 99,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 4.08,
+    "respect_loss": 1.02,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 2,
+      "retaliation": 1.5,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
     "id": 440814345,
     "code": "d03ccba8b41e8889fca0773f42d920f8",
     "started": 1768628867,
