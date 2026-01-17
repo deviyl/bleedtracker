@@ -1,5 +1,47 @@
 [
   {
+    "id": 440941214,
+    "code": "99fdb8004219f6d3e2b05af0401a02cc",
+    "started": 1768666905,
+    "ended": 1768666908,
+    "attacker": {
+      "id": 1565267,
+      "name": "yarzar",
+      "level": 51,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.25,
+    "respect_loss": 0.31,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.12,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 440892780,
     "code": "4c30570e98bbaf697652e07472a3d6c4",
     "started": 1768655992,
