@@ -1,5 +1,128 @@
 [
   {
+    "id": 440871110,
+    "code": "379c1b351340222a23e334f0e7e31926",
+    "started": 1768649079,
+    "ended": 1768649082,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3801461,
+      "name": "Donaldberger236",
+      "level": 17,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.54,
+    "respect_loss": 1.63,
+    "chain": 752,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.06,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 440870554,
+    "code": "97796a0986ee4403d611207e8e71f51c",
+    "started": 1768648873,
+    "ended": 1768648879,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3990734,
+      "name": "Nekebrub",
+      "level": 15,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.13,
+    "respect_loss": 1.53,
+    "chain": 751,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.95,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 440870366,
+    "code": "b5eb3073070c91a07c4d2bb3fe4d421b",
+    "started": 1768648799,
+    "ended": 1768648803,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1692925,
+      "name": "-Cataclysm-",
+      "level": 3,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.77,
+    "respect_loss": 0.44,
+    "chain": 749,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.19,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.47,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 440868990,
     "code": "6a3d307f6d53fc7c95596e757434469b",
     "started": 1768648251,
