@@ -1,5 +1,44 @@
 [
   {
+    "id": 440797141,
+    "code": "3bb9f714eccaaebf1c7695b3788467ee",
+    "started": 1768623685,
+    "ended": 1768623692,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "revitalize",
+        "value": 25
+      }
+    ]
+  },
+  {
     "id": 440756496,
     "code": "2b8a596779cf6a1d332d3a2fa0b590b8",
     "started": 1768613088,
