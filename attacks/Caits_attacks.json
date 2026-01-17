@@ -1,5 +1,52 @@
 [
   {
+    "id": 440873868,
+    "code": "71b346f810394eb9318bcf06683b87d1",
+    "started": 1768650194,
+    "ended": 1768650200,
+    "attacker": {
+      "id": 2743733,
+      "name": "MayThinZar",
+      "level": 50,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 4.81,
+    "respect_loss": 1.2,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.85,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
     "id": 440871110,
     "code": "379c1b351340222a23e334f0e7e31926",
     "started": 1768649079,
