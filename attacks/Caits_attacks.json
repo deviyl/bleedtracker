@@ -1,5 +1,47 @@
 [
   {
+    "id": 440847665,
+    "code": "508f36947ab1570abcaf1c3a44d71054",
+    "started": 1768640146,
+    "ended": 1768640158,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1187158,
+      "name": "13bladez",
+      "level": 58,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 440797141,
     "code": "3bb9f714eccaaebf1c7695b3788467ee",
     "started": 1768623685,
