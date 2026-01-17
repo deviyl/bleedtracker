@@ -1,5 +1,39 @@
 [
   {
+    "id": 440892780,
+    "code": "4c30570e98bbaf697652e07472a3d6c4",
+    "started": 1768655992,
+    "ended": 1768655996,
+    "attacker": null,
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.14,
+    "respect_loss": 0.28,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 440866036,
     "code": "d86f6f4823ee7a910feb70f83c45646c",
     "started": 1768647098,
