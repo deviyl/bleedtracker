@@ -1,5 +1,52 @@
 [
   {
+    "id": 440827516,
+    "code": "7d6a5f11e91c54801a3da06ca54b8ca9",
+    "started": 1768633233,
+    "ended": 1768633240,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 4025369,
+      "name": "EddieLe",
+      "level": 19,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.8,
+    "respect_loss": 1.45,
+    "chain": 590,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.58,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.44,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
     "id": 440825970,
     "code": "ac7753c06c5db92408e8a49fad088cc6",
     "started": 1768632688,
