@@ -1,5 +1,49 @@
 [
   {
+    "id": 441413620,
+    "code": "49cc87a5500c1d0dc1f97318e942bfe6",
+    "started": 1768778726,
+    "ended": 1768778739,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 426267,
+      "name": "xXxTowliexXx",
+      "level": 41,
+      "faction": null
+    },
+    "result": "Hospitalized",
+    "respect_gain": 4.21,
+    "respect_loss": 1.05,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
     "id": 441404542,
     "code": "3cd59ac9b62b6317603b522565023acf",
     "started": 1768775374,
