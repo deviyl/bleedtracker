@@ -1,5 +1,206 @@
 [
   {
+    "id": 441404542,
+    "code": "3cd59ac9b62b6317603b522565023acf",
+    "started": 1768775374,
+    "ended": 1768775380,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2074095,
+      "name": "wes1987",
+      "level": 41,
+      "faction": {
+        "id": 20567,
+        "name": "Fate No More"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.6,
+    "respect_loss": 0.9,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441404477,
+    "code": "bd0d7d046ea95300efab102d45a77f70",
+    "started": 1768775341,
+    "ended": 1768775350,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2074095,
+      "name": "wes1987",
+      "level": 41,
+      "faction": {
+        "id": 20567,
+        "name": "Fate No More"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441404341,
+    "code": "fdaa908fcdc0b64bf0564aa23f9bf409",
+    "started": 1768775297,
+    "ended": 1768775320,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 849199,
+      "name": "Skylink",
+      "level": 40,
+      "faction": null
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.6,
+    "respect_loss": 0.9,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441404210,
+    "code": "d72b49d306dc53201cb0bfc9d8715eaa",
+    "started": 1768775249,
+    "ended": 1768775260,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 849199,
+      "name": "Skylink",
+      "level": 40,
+      "faction": null
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441404048,
+    "code": "a25251cf429c73c123427466eff21a08",
+    "started": 1768775195,
+    "ended": 1768775231,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1900196,
+      "name": "Wolfyraptor",
+      "level": 23,
+      "faction": null
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.33,
+    "respect_loss": 0.83,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 441351816,
     "code": "8aea80f7d97f2c3d08ae39a6e9e256c2",
     "started": 1768758393,
