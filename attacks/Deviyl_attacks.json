@@ -1,5 +1,203 @@
 [
   {
+    "id": 441709966,
+    "code": "ad6884f566ae29d79715b9c599469b74",
+    "started": 1768935054,
+    "ended": 1768935058,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2606809,
+      "name": "-AnnaMay-",
+      "level": 19,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 1.33,
+    "respect_loss": 0.33,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.63,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441709860,
+    "code": "ba0fe2c58a24c84ad68620f0d65c2814",
+    "started": 1768934990,
+    "ended": 1768935001,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3947546,
+      "name": "JALISPENO",
+      "level": 27,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 1.93,
+    "respect_loss": 0.48,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441709736,
+    "code": "8e7d1c7753b5d1d0b0190f405d371f4f",
+    "started": 1768934925,
+    "ended": 1768934934,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 213180,
+      "name": "Nathanie",
+      "level": 47,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 2.77,
+    "respect_loss": 0.69,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441709656,
+    "code": "894713f53b131a62ea62f3c3d309ed95",
+    "started": 1768934887,
+    "ended": 1768934891,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1164329,
+      "name": "Slane",
+      "level": 48,
+      "faction": {
+        "id": 19238,
+        "name": "BETAMAXX"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441709551,
+    "code": "fd55fac3c80a9bb3d7eec2dfbb387d9d",
+    "started": 1768934836,
+    "ended": 1768934871,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2642262,
+      "name": "Yoofie",
+      "level": 35,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 2.63,
+    "respect_loss": 0.66,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 441674154,
     "code": "f9410ea62b213f7a4164cb5b863fa5f6",
     "started": 1768911681,
