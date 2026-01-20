@@ -1,5 +1,44 @@
 [
   {
+    "id": 441674154,
+    "code": "f9410ea62b213f7a4164cb5b863fa5f6",
+    "started": 1768911681,
+    "ended": 1768911700,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1427046,
+      "name": "morten628",
+      "level": 40,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 2.7,
+    "respect_loss": 0.68,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 441413620,
     "code": "49cc87a5500c1d0dc1f97318e942bfe6",
     "started": 1768778726,
