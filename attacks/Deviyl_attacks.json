@@ -1,5 +1,44 @@
 [
   {
+    "id": 441853665,
+    "code": "4c1b7d47a18c4b8e84afa9d573903f6a",
+    "started": 1769034036,
+    "ended": 1769034046,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1678416,
+      "name": "-Mac-",
+      "level": 25,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.36,
+    "respect_loss": 0.84,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 441845490,
     "code": "3b80fef89b47918a80540f29650813af",
     "started": 1769028456,
