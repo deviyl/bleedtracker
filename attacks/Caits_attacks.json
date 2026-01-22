@@ -1,5 +1,164 @@
 [
   {
+    "id": 441868637,
+    "code": "db73cd326ebcd6d85f3f8af38bc1270b",
+    "started": 1769042897,
+    "ended": 1769042914,
+    "attacker": {
+      "id": 3625323,
+      "name": "Orange_Idol",
+      "level": 33,
+      "faction": null
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441862772,
+    "code": "a41169e23d47f84eb6cc81ea588556d2",
+    "started": 1769040319,
+    "ended": 1769040343,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1927912,
+      "name": "NovaCore",
+      "level": 30,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 2.59,
+    "respect_loss": 0.65,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441862626,
+    "code": "5be63382f6ac30123c0921b76ffa0ac6",
+    "started": 1769040268,
+    "ended": 1769040281,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2797988,
+      "name": "Transcendental",
+      "level": 16,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 2.43,
+    "respect_loss": 0.61,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441862349,
+    "code": "d36484d7480a81b76c034294a7239a9c",
+    "started": 1769040166,
+    "ended": 1769040195,
+    "attacker": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3167733,
+      "name": "Toonsters",
+      "level": 34,
+      "faction": {
+        "id": 52449,
+        "name": "Toonsters Fu"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.51,
+    "respect_loss": 0.88,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 441785714,
     "code": "9e3522e43831114aedc07c058fdd6517",
     "started": 1768983658,
