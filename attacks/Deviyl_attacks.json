@@ -1,5 +1,86 @@
 [
   {
+    "id": 441921564,
+    "code": "48827b6fdb355ecd94d1824e828bc7ec",
+    "started": 1769079891,
+    "ended": 1769079949,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1896926,
+      "name": "--Spartan--",
+      "level": 20,
+      "faction": null
+    },
+    "result": "Stalemate",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 441921526,
+    "code": "3aac24c5ddb5d134bfc2411d2fb93014",
+    "started": 1769079866,
+    "ended": 1769079872,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2054991,
+      "name": "-Titan-",
+      "level": 18,
+      "faction": {
+        "id": 42497,
+        "name": "Canadian Gamblers"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.61,
+    "respect_loss": 0.4,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.48,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 441863446,
     "code": "e3b7314900b794f0d46f16de8a55ddd0",
     "started": 1769040574,
