@@ -1,5 +1,44 @@
 [
   {
+    "id": 442087126,
+    "code": "e5ac264697b1d60011b3507b134867ab",
+    "started": 1769139556,
+    "ended": 1769139571,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2666914,
+      "name": "jblazed12",
+      "level": 37,
+      "faction": null
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 441979416,
     "code": "9c930b3e75dfa4f986e6b61b0a754259",
     "started": 1769107651,
