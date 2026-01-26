@@ -1,5 +1,88 @@
 [
   {
+    "id": 443074633,
+    "code": "d4f54de85494b841680104bede979078",
+    "started": 1769389347,
+    "ended": 1769389363,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 916526,
+      "name": "rooney10",
+      "level": 33,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 4.07,
+    "respect_loss": 1.02,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 443074396,
+    "code": "679d9be8146f8ebce8936aa5965d1d91",
+    "started": 1769389275,
+    "ended": 1769389293,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 916526,
+      "name": "rooney10",
+      "level": 33,
+      "faction": null
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 442929921,
     "code": "83c3ae1a95ff08dc283ddcf3116d3d5b",
     "started": 1769344555,
