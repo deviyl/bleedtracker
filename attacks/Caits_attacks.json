@@ -1,5 +1,47 @@
 [
   {
+    "id": 443184406,
+    "code": "ff90e27b011169b3411a88c124fef139",
+    "started": 1769443166,
+    "ended": 1769443176,
+    "attacker": {
+      "id": 3079556,
+      "name": "TSB",
+      "level": 19,
+      "faction": {
+        "id": 47614,
+        "name": "Equity X"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 442863715,
     "code": "4530ff52f2e40807e20eeb0286620afe",
     "started": 1769325730,
