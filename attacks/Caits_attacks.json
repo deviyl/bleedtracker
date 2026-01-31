@@ -1,5 +1,47 @@
 [
   {
+    "id": 444167998,
+    "code": "ee867976742a2e735cda3cb032c18be1",
+    "started": 1769883848,
+    "ended": 1769883853,
+    "attacker": {
+      "id": 3991765,
+      "name": "The-Mug-Man",
+      "level": 28,
+      "faction": {
+        "id": 48848,
+        "name": "Torn 4 Life"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.72,
+    "respect_loss": 1.68,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 444093961,
     "code": "5631b82d22797a236136022912b5d7df",
     "started": 1769867857,
