@@ -1,5 +1,183 @@
 [
   {
+    "id": 444605624,
+    "code": "c026cb78ab2d0de5f922d6d874fb1043",
+    "started": 1769981115,
+    "ended": 1769981118,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3620741,
+      "name": "McLean0",
+      "level": 31,
+      "faction": {
+        "id": 48848,
+        "name": "Torn 4 Life"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.07,
+    "respect_loss": 1.52,
+    "chain": 47,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.96,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.17,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 444603772,
+    "code": "8fd44b2c2100456481940e89f50be6fd",
+    "started": 1769980554,
+    "ended": 1769980555,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3860818,
+      "name": "Pilgrim_Reaper",
+      "level": 20,
+      "faction": {
+        "id": 48848,
+        "name": "Torn 4 Life"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.37,
+    "respect_loss": 0.84,
+    "chain": 30,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.19,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.12,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 444602749,
+    "code": "83c3d5178fcb1a4bd481b4a7ce5ce9b4",
+    "started": 1769980252,
+    "ended": 1769980318,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2335136,
+      "name": "Dryroastednuttz",
+      "level": 99,
+      "faction": {
+        "id": 48848,
+        "name": "Torn 4 Life"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 444601879,
+    "code": "f9acf45766568bf5459eb2d6522412e7",
+    "started": 1769980003,
+    "ended": 1769980033,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2583745,
+      "name": "Shekle",
+      "level": 76,
+      "faction": {
+        "id": 48848,
+        "name": "Torn 4 Life"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 444599824,
     "code": "9b415f15af541b5a753f1c973464d153",
     "started": 1769979348,
