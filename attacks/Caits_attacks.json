@@ -1,5 +1,89 @@
 [
   {
+    "id": 444538016,
+    "code": "032d8422d292789f4b72484614599e1f",
+    "started": 1769961039,
+    "ended": 1769961041,
+    "attacker": {
+      "id": 3863961,
+      "name": "3mta369",
+      "level": 38,
+      "faction": {
+        "id": 37838,
+        "name": "Port Royal"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.38,
+    "respect_loss": 0.6,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 444538020,
+    "code": "e7c69ce7ccb1f2cad76afd3fc54ebd8f",
+    "started": 1769961039,
+    "ended": 1769961039,
+    "attacker": {
+      "id": 3592521,
+      "name": "0vni",
+      "level": 68,
+      "faction": {
+        "id": 46570,
+        "name": "INSANITY X"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 444519127,
     "code": "403ae7a482735fea24c48950bebb0a61",
     "started": 1769955256,
