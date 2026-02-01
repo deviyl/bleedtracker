@@ -1,5 +1,47 @@
 [
   {
+    "id": 444473001,
+    "code": "f56fb16dc10936b4801328bf8c3cf432",
+    "started": 1769940039,
+    "ended": 1769940044,
+    "attacker": {
+      "id": 2377397,
+      "name": "Trang666",
+      "level": 41,
+      "faction": {
+        "id": 52786,
+        "name": "Mass Destruction"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.32,
+    "respect_loss": 0.83,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.96,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 444430139,
     "code": "f3952d4bcebc0c029b880e482d06e7e0",
     "started": 1769927844,
