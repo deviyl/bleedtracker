@@ -1,5 +1,47 @@
 [
   {
+    "id": 444628587,
+    "code": "295aad00af6330c8e10c09c09d09745f",
+    "started": 1769988684,
+    "ended": 1769988688,
+    "attacker": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 49,
+      "faction": {
+        "id": 51053,
+        "name": "The Capital Crime Family"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.64,
+    "respect_loss": 0.41,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.46,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 444578814,
     "code": "125d46d95dd97de762e4808d053fa77c",
     "started": 1769973331,
