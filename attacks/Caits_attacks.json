@@ -1,5 +1,89 @@
 [
   {
+    "id": 444685533,
+    "code": "856f0d85e2dd136eed1784aacb1066bd",
+    "started": 1770010250,
+    "ended": 1770010253,
+    "attacker": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 49,
+      "faction": {
+        "id": 51053,
+        "name": "The Capital Crime Family"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.64,
+    "respect_loss": 0.41,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.46,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 444685532,
+    "code": "4340a4604ab87178e43fdb1f6f2899e7",
+    "started": 1770010250,
+    "ended": 1770010252,
+    "attacker": {
+      "id": 3595105,
+      "name": "Zernax",
+      "level": 54,
+      "faction": {
+        "id": 31397,
+        "name": "The Rifle Hotel"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 444672579,
     "code": "cef810b8129c7942dc3640ec48593b91",
     "started": 1770004380,
