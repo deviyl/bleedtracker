@@ -1,5 +1,122 @@
 [
   {
+    "id": 445053229,
+    "code": "50f9bc2cb84c9c959fcf70d16ea9b60e",
+    "started": 1770237170,
+    "ended": 1770237178,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2435728,
+      "name": "LadyAnya",
+      "level": 45,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.66,
+    "respect_loss": 0.92,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 445052234,
+    "code": "b7db50548b96bb79471647295b9f4586",
+    "started": 1770236453,
+    "ended": 1770236457,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1263218,
+      "name": "Musick",
+      "level": 47,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 4.61,
+    "respect_loss": 1.15,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 445051961,
+    "code": "84d2d94e7dcc0a7bd5f373852ab37e8e",
+    "started": 1770236279,
+    "ended": 1770236301,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2145699,
+      "name": "Doctor_Qrow",
+      "level": 50,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 4.69,
+    "respect_loss": 1.17,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 444975757,
     "code": "e10a1bf0f8420bdd4d11821846a77754",
     "started": 1770180157,
