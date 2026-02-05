@@ -1,5 +1,83 @@
 [
   {
+    "id": 445080293,
+    "code": "566484d5e532d7b4fd1558cc15d97793",
+    "started": 1770254498,
+    "ended": 1770254531,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3597237,
+      "name": "Swozz",
+      "level": 38,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 2.68,
+    "respect_loss": 0.67,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 445071407,
+    "code": "a7619db810c31ced9ffc7b1d71afb5dd",
+    "started": 1770250246,
+    "ended": 1770250249,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3270603,
+      "name": "-KFC-",
+      "level": 19,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.67,
+    "respect_loss": 0.42,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.53,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 445068500,
     "code": "54280b82540e42f8e57a9853b468926b",
     "started": 1770248467,
