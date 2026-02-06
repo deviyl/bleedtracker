@@ -1,5 +1,52 @@
 [
   {
+    "id": 445490684,
+    "code": "01508f6f582c220f26ccb0f28b0f4c2f",
+    "started": 1770410567,
+    "ended": 1770410571,
+    "attacker": {
+      "id": 2986370,
+      "name": "Syrion",
+      "level": 70,
+      "faction": {
+        "id": 47838,
+        "name": "Fallout Shelter"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.07,
+    "respect_loss": 1.02,
+    "chain": 232,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.18,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.34,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
     "id": 445467058,
     "code": "7dcf7a8e1b57c2846cf6e63b34cfa024",
     "started": 1770404850,
