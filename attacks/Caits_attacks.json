@@ -1,5 +1,47 @@
 [
   {
+    "id": 445474887,
+    "code": "222ae05546e2ccc6ad2c568100e9c796",
+    "started": 1770406828,
+    "ended": 1770406831,
+    "attacker": {
+      "id": 3652455,
+      "name": "PollyBee",
+      "level": 49,
+      "faction": {
+        "id": 47838,
+        "name": "Fallout Shelter"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.24,
+    "respect_loss": 1.06,
+    "chain": 127,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.48,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.28,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 445469854,
     "code": "d81b819b49f86ebb4474bdee893f7a85",
     "started": 1770405573,
