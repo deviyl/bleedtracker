@@ -1,5 +1,47 @@
 [
   {
+    "id": 445491726,
+    "code": "10fa817cf7410af18616be608ab369b6",
+    "started": 1770410838,
+    "ended": 1770410840,
+    "attacker": {
+      "id": 3010022,
+      "name": "dikdec",
+      "level": 81,
+      "faction": {
+        "id": 47838,
+        "name": "Fallout Shelter"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.12,
+    "respect_loss": 0.78,
+    "chain": 238,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.34,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 445484675,
     "code": "e3b75098b58ed33f92deccc36e6aedf9",
     "started": 1770409043,
