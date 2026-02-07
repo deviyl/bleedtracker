@@ -1,5 +1,52 @@
 [
   {
+    "id": 445643764,
+    "code": "ffa557a4af836f141389f25151232c65",
+    "started": 1770455063,
+    "ended": 1770455066,
+    "attacker": {
+      "id": 2317515,
+      "name": "Dr_Toboggan",
+      "level": 95,
+      "faction": {
+        "id": 47838,
+        "name": "Fallout Shelter"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.69,
+    "respect_loss": 0.92,
+    "chain": 247,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.35,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
     "id": 445636191,
     "code": "aefa97bbfbaaa7a54dc6b9cd7f12c3f8",
     "started": 1770452015,
