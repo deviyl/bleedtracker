@@ -1,5 +1,131 @@
 [
   {
+    "id": 445593855,
+    "code": "75f3d8dcbb84a7600e1229c28d862c0a",
+    "started": 1770436925,
+    "ended": 1770436927,
+    "attacker": {
+      "id": 3146804,
+      "name": "VanishingPoiint",
+      "level": 64,
+      "faction": {
+        "id": 47838,
+        "name": "Fallout Shelter"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.43,
+    "respect_loss": 0.86,
+    "chain": 671,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 445588171,
+    "code": "c219e4cf4e217129cd62699eb8e7deec",
+    "started": 1770435027,
+    "ended": 1770435030,
+    "attacker": {
+      "id": 3569913,
+      "name": "Monk1010",
+      "level": 62,
+      "faction": {
+        "id": 47838,
+        "name": "Fallout Shelter"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.64,
+    "respect_loss": 0.91,
+    "chain": 640,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.12,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.45,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 445571188,
+    "code": "bc5c2ac25da1a5b98c597f5d0fe6f015",
+    "started": 1770429930,
+    "ended": 1770429933,
+    "attacker": {
+      "id": 3576871,
+      "name": "Sir_Chancho",
+      "level": 40,
+      "faction": {
+        "id": 47838,
+        "name": "Fallout Shelter"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.87,
+    "respect_loss": 1.47,
+    "chain": 574,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.82,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.44,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 445565315,
     "code": "68d75b9034e6bd6d43d4e750cd206ab6",
     "started": 1770428287,
