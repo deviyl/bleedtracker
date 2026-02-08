@@ -1,5 +1,293 @@
 [
   {
+    "id": 446160530,
+    "code": "3b0cabcfa417c14e5443155a889c927a",
+    "started": 1770576708,
+    "ended": 1770576716,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 1857828,
+      "name": "1vasari",
+      "level": 23,
+      "faction": null
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.64,
+    "respect_loss": 0.41,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.48,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446160067,
+    "code": "0e03b8351f34a1e1bbf319c34bb9100b",
+    "started": 1770576582,
+    "ended": 1770576586,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3711838,
+      "name": "Longdix",
+      "level": 22,
+      "faction": {
+        "id": 11376,
+        "name": "Also Impulse"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.33,
+    "respect_loss": 0.33,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.2,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446159346,
+    "code": "6247ec0ca897ba55ca89176185a1f442",
+    "started": 1770576374,
+    "ended": 1770576383,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3747132,
+      "name": "PaddyTR",
+      "level": 31,
+      "faction": {
+        "id": 50951,
+        "name": "The Gambino Family"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.51,
+    "respect_loss": 0.63,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.18,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446159137,
+    "code": "0f57d95d4c4ced67076658b75b5a2462",
+    "started": 1770576314,
+    "ended": 1770576325,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3541000,
+      "name": "Jamrocksleeping",
+      "level": 40,
+      "faction": {
+        "id": 53100,
+        "name": "Menacing Monkeys"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.92,
+    "respect_loss": 0.73,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.43,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446158139,
+    "code": "45cac0c6f9c137effaa41c246f96cbd1",
+    "started": 1770576024,
+    "ended": 1770576036,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 362771,
+      "name": "Am_",
+      "level": 25,
+      "faction": null
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.4,
+    "respect_loss": 0.6,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446157551,
+    "code": "8a883312574c7a96acd72c90dee5e4e1",
+    "started": 1770575851,
+    "ended": 1770575858,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2406770,
+      "name": "Nilfgaardczyk",
+      "level": 17,
+      "faction": {
+        "id": 8384,
+        "name": "Savage Plague"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446156784,
+    "code": "d4aaacc7d552694a6bed8d4fe6444c4e",
+    "started": 1770575632,
+    "ended": 1770575636,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3984548,
+      "name": "RedBerri",
+      "level": 19,
+      "faction": {
+        "id": 14441,
+        "name": "Bastards By Design"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.55,
+    "respect_loss": 0.39,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.42,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 446142733,
     "code": "21502c4e671606e7175f2307ba27d3f8",
     "started": 1770571621,
