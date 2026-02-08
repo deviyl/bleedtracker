@@ -1,5 +1,122 @@
 [
   {
+    "id": 446142733,
+    "code": "21502c4e671606e7175f2307ba27d3f8",
+    "started": 1770571621,
+    "ended": 1770571625,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2621139,
+      "name": "AffaFine",
+      "level": 27,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 2.5,
+    "respect_loss": 0.62,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.21,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446142555,
+    "code": "9902e26b50a6efc2ee60cb32a1e62fc1",
+    "started": 1770571603,
+    "ended": 1770571607,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2724376,
+      "name": "4ernika",
+      "level": 26,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 1.39,
+    "respect_loss": 0.35,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.23,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446142434,
+    "code": "35707d1aca14f583588ecaab32f90c94",
+    "started": 1770571581,
+    "ended": 1770571589,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 559450,
+      "name": "Jokerpoker",
+      "level": 38,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.57,
+    "respect_loss": 0.89,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 446119149,
     "code": "ebf6dc1f843249665d68b401f25a8890",
     "started": 1770564757,
