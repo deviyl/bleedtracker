@@ -1,5 +1,93 @@
 [
   {
+    "id": 446119149,
+    "code": "ebf6dc1f843249665d68b401f25a8890",
+    "started": 1770564757,
+    "ended": 1770564774,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3230452,
+      "name": "Jigglesaurus",
+      "level": 34,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.51,
+    "respect_loss": 0.88,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 31
+      }
+    ]
+  },
+  {
+    "id": 446118994,
+    "code": "f16a635afedf49c26cde3df4f4d67005",
+    "started": 1770564710,
+    "ended": 1770564723,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 559450,
+      "name": "Jokerpoker",
+      "level": 38,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.57,
+    "respect_loss": 0.89,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 31
+      }
+    ]
+  },
+  {
     "id": 445643764,
     "code": "ffa557a4af836f141389f25151232c65",
     "started": 1770455063,
