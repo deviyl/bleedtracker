@@ -1,5 +1,47 @@
 [
   {
+    "id": 446927076,
+    "code": "af414d5dfd290f18e750cfe49066aa3a",
+    "started": 1770981539,
+    "ended": 1770981550,
+    "attacker": {
+      "id": 2527029,
+      "name": "haaji",
+      "level": 37,
+      "faction": {
+        "id": 36891,
+        "name": "FLATLINE"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.78,
+    "respect_loss": 0.94,
+    "chain": 964,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 446844365,
     "code": "89cc11b9e8171c08ca0104ce6f2166da",
     "started": 1770948491,
