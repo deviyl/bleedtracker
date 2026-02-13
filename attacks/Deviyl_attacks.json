@@ -1,5 +1,83 @@
 [
   {
+    "id": 446828056,
+    "code": "1a55daf02c27c296e2dfe8c2d7eef2c3",
+    "started": 1770942019,
+    "ended": 1770942030,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 864497,
+      "name": "joz0",
+      "level": 36,
+      "faction": null
+    },
+    "result": "Mugged",
+    "respect_gain": 2.66,
+    "respect_loss": 0.67,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446827851,
+    "code": "ac160282ab1b71fec30ffbb2ba73e974",
+    "started": 1770941953,
+    "ended": 1770941990,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 864497,
+      "name": "joz0",
+      "level": 36,
+      "faction": null
+    },
+    "result": "Stalemate",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 446739038,
     "code": "0116afbaf017be2013e933a8e8eb1f89",
     "started": 1770903189,
