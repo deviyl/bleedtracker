@@ -1,5 +1,122 @@
 [
   {
+    "id": 446844365,
+    "code": "89cc11b9e8171c08ca0104ce6f2166da",
+    "started": 1770948491,
+    "ended": 1770948496,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 864497,
+      "name": "joz0",
+      "level": 36,
+      "faction": null
+    },
+    "result": "Attacked",
+    "respect_gain": 3.54,
+    "respect_loss": 0.88,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446844299,
+    "code": "5ac4586ff774aae52a3a43dfeb641bbd",
+    "started": 1770948459,
+    "ended": 1770948480,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 864497,
+      "name": "joz0",
+      "level": 36,
+      "faction": null
+    },
+    "result": "Escape",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 446844202,
+    "code": "8be028dc593c5431d3ad8f314b425f83",
+    "started": 1770948422,
+    "ended": 1770948450,
+    "attacker": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 864497,
+      "name": "joz0",
+      "level": 36,
+      "faction": null
+    },
+    "result": "Stalemate",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 446828056,
     "code": "1a55daf02c27c296e2dfe8c2d7eef2c3",
     "started": 1770942019,
